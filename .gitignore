@@ -1,0 +1,19 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Claude Code
+CLAUDE.md
+.claude/
+.opencode/
+plans/
+docs/
+.repomixignore
+release-manifest.json
+AGENTS.md
+repomix-output.xml
