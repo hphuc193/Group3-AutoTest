@@ -54,6 +54,9 @@ npx playwright test tests/auth.setup.ts --headed --project=auth-setup
 
 # Reset expired auth and regenerate
 rm -rf .auth && npx playwright test tests/auth.setup.ts --headed --project=auth-setup
+
+npx playwright test --project=auth-setup --headed -g "admin"
+npx playwright test --project=auth-setup --headed -g "client"
 ```
 
 Two browsers will open sequentially. In each one:
