@@ -17,3 +17,5 @@ docs/
 release-manifest.json
 AGENTS.md
 repomix-output.xml
+
+.auth/
