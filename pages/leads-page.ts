@@ -152,4 +152,43 @@ export class LeadsPage {
   async expectLeadVisible(name: string) {
     await expect(this.page.locator('table#lead-table')).toContainText(name, { timeout: 10_000 });
   }
+
+  // --- Search ---
+
+  /** Type a keyword into the DataTable search box and wait for results */
+  async search(keyword: string) {
+    const searchInput = this.page.locator('input[type="search"]');
+    await searchInput.clear();
+    await searchInput.fill(keyword);
+    await this.page.waitForTimeout(2_000);
+  }
+
+  /** Check table shows "No matching records" or empty */
+  async expectNoResults() {
+    const emptyRow = this.page.locator('table#lead-table tbody td.dataTables_empty, table#lead-table tbody .dt-empty');
+    const rowCount = await this.tableRows.count();
+    const hasEmpty = await emptyRow.count();
+    expect(hasEmpty > 0 || rowCount === 0).toBe(true);
+  }
+
+  // --- View Lead ---
+
+  /** Click on a lead name link to open lead detail page */
+  async clickLeadTitle(name: string) {
+    await this.page.locator('table#lead-table tbody a').filter({ hasText: name }).first().click();
+    await this.page.waitForTimeout(2_000);
+  }
+
+  /** Click "Convert to client" button on lead detail page */
+  async clickConvertToClient() {
+    await this.page.locator('a[title="Convert to client"]').click();
+    await this.page.locator('#ajaxModal.show').waitFor({ state: 'visible', timeout: 10_000 });
+    await this.page.waitForTimeout(1_500);
+  }
+
+  /** Click Save in the convert-to-client modal */
+  async confirmConvertToClient() {
+    await this.page.locator('button#form-submit').click();
+    await this.page.waitForTimeout(3_000);
+  }
 }
