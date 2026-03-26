@@ -151,4 +151,30 @@ export class ClientsPage {
     await this.page.locator('#confirmationModal').getByRole('button', { name: 'Cancel' }).click();
     await this.page.waitForTimeout(1_000);
   }
+
+  // --- Search ---
+
+  /** Type a keyword into the DataTable search box */
+  async search(keyword: string) {
+    const searchInput = this.page.locator('input#dt-search-0');
+    await searchInput.clear();
+    await searchInput.fill(keyword);
+    await this.page.waitForTimeout(2_000);
+  }
+
+  /** Check table shows no results */
+  async expectNoResults() {
+    const emptyRow = this.page.locator('table#client-table tbody td.dataTables_empty, table#client-table tbody .dt-empty');
+    const hasEmpty = await emptyRow.count();
+    const rowCount = await this.tableRows.count();
+    expect(hasEmpty > 0 || rowCount === 0).toBe(true);
+  }
+
+  // --- View Client ---
+
+  /** Click on a client name link to open detail page */
+  async clickClientName(name: string) {
+    await this.page.locator('table#client-table tbody a').filter({ hasText: name }).first().click();
+    await this.page.waitForTimeout(2_000);
+  }
 }
