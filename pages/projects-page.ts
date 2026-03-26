@@ -148,6 +148,33 @@ export class ProjectsPage {
     }
   }
 
+  // --- Search ---
+
+  /** Type a keyword into the DataTable search box and wait for results */
+  async search(keyword: string) {
+    const searchInput = this.page.locator('input#dt-search-0[type="search"]');
+    await searchInput.clear();
+    await searchInput.fill(keyword);
+    await this.page.waitForTimeout(2_000);
+  }
+
+  /** Check table shows "No matching records" or empty */
+  async expectNoResults() {
+    const emptyRow = this.page.locator('table#project-table tbody td.dataTables_empty, table#project-table tbody .dt-empty');
+    const rowCount = await this.tableRows.count();
+    // Either empty message or zero data rows
+    const hasEmpty = await emptyRow.count();
+    expect(hasEmpty > 0 || rowCount === 0).toBe(true);
+  }
+
+  // --- View Project ---
+
+  /** Click on a project title link to open project detail page */
+  async clickProjectTitle(title: string) {
+    await this.page.locator('table#project-table tbody a').filter({ hasText: title }).first().click();
+    await this.page.waitForTimeout(2_000);
+  }
+
   /** Check that a project title exists in the table */
   async expectProjectVisible(title: string) {
     await expect(this.projectTable).toContainText(title, { timeout: 10_000 });
