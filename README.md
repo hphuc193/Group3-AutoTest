@@ -67,6 +67,45 @@ Two browsers will open sequentially. In each one:
 
 Auth files (`.auth/admin.json`, `.auth/client.json`) last until the demo site resets (~6 hours).
 
+### Manual Cookie Auth (reCAPTCHA banned workaround)
+
+If reCAPTCHA blocks the Playwright browser, you can log in manually via a regular browser and export cookies:
+
+1. Open https://rise.fairsketch.com in Chrome, log in as Admin
+2. Open DevTools → Application → Cookies → `rise.fairsketch.com`
+3. Copy `ci_session` and `rise_csrf_cookie` values
+4. Create `.auth/admin.json` with the following structure:
+
+```json
+{
+  "cookies": [
+    {
+      "name": "ci_session",
+      "value": "YOUR_CI_SESSION_VALUE",
+      "domain": "rise.fairsketch.com",
+      "path": "/",
+      "expires": 1774581349,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rise_csrf_cookie",
+      "value": "YOUR_CSRF_COOKIE_VALUE",
+      "domain": "rise.fairsketch.com",
+      "path": "/",
+      "expires": 1774581349,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
+```
+
+> Set `expires` to a future Unix timestamp (e.g. current time + 7200 for 2 hours). You can get one via `date -v+2H +%s` (macOS) or `date -d '+2 hours' +%s` (Linux). Replace the cookie values with your actual values. Repeat for `.auth/client.json` after logging in as Client.
+
 ## Running Tests
 
 ```bash
