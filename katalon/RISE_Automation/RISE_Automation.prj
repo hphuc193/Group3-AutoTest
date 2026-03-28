@@ -6,11 +6,12 @@
    <UUID>d18f5dc7-1204-4122-8798-abd24cb5612e</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.3</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/lap15528/Documents/UMT/Software_Testing/RISE_Automation_2201700083_2201700077_2201700053/katalon/RISE_Automation/RISE_Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE1 - Login Test Case (Data-driven)
+Covers: TC_LOGIN_001 to TC_LOGIN_005
+Tests login with valid/invalid credentials using JSON data file.</description>
+   <name>TC_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-login-fe1-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e7b2e7b-ffa3-4cff-9b26-9c0fea95947a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b07f8634-9318-45b5-88d8-8817b862780f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>913bc718-30df-4b0b-9244-3825f59950eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0dacf3ab-de9f-4021-800b-39d6966684c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c889dd3-c8f4-4b97-b1c9-d6ee480f6d9c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e7b2e7b-ffa3-4cff-9b26-9c0fea95947a</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b07f8634-9318-45b5-88d8-8817b862780f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>913bc718-30df-4b0b-9244-3825f59950eb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0dacf3ab-de9f-4021-800b-39d6966684c5</id>
+      <masked>false</masked>
+      <name>isPositive</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c889dd3-c8f4-4b97-b1c9-d6ee480f6d9c</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

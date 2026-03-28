@@ -1,0 +1,6 @@
+scenario,email,password,isPositive,expectedResult
+TC_LOGIN_001 - Admin login valid credentials,admin@demo.com,riseDemo,true,dashboard
+TC_LOGIN_005 - Client login valid credentials,client@demo.com,riseDemo,true,dashboard
+TC_LOGIN_002 - Login with wrong email,wrong@email.com,riseDemo,false,error_alert
+TC_LOGIN_003 - Login with wrong password,admin@demo.com,wrongPass123,false,error_alert
+TC_LOGIN_004 - Login with empty fields,,,false,stay_on_login

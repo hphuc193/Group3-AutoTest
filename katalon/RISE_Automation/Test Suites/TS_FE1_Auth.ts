@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_FE1_Auth</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>34d72c81-565a-4a3b-827d-8ce22acb0e0c</testSuiteGuid>
+   <testCaseLink>
+      <guid>ea637773-e726-43c9-a6ca-0a018e0df1b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE1_Auth/TC_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b7700b15-f393-46e8-8197-94ad8ac05ab8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/FE1_Login_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b7700b15-f393-46e8-8197-94ad8ac05ab8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>9e7b2e7b-ffa3-4cff-9b26-9c0fea95947a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7700b15-f393-46e8-8197-94ad8ac05ab8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>b07f8634-9318-45b5-88d8-8817b862780f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7700b15-f393-46e8-8197-94ad8ac05ab8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>913bc718-30df-4b0b-9244-3825f59950eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7700b15-f393-46e8-8197-94ad8ac05ab8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>isPositive</value>
+         <variableId>0dacf3ab-de9f-4021-800b-39d6966684c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7700b15-f393-46e8-8197-94ad8ac05ab8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>5c889dd3-c8f4-4b97-b1c9-d6ee480f6d9c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
