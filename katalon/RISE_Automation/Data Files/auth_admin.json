@@ -1,0 +1,56 @@
+[
+    {
+        "name": "ci_session",
+        "value": "4c762291a67e990d0e23c99145e25e4d",
+        "domain": "rise.fairsketch.com",
+        "path": "/",
+        "expiry": 1774720249000,
+        "secure": true,
+        "httpOnly": true
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.2.897503622.1774713000",
+        "domain": ".fairsketch.com",
+        "path": "/",
+        "expiry": 1809273047000,
+        "secure": false,
+        "httpOnly": false
+    },
+    {
+        "name": "_ga_MXSFK8NPVF",
+        "value": "GS2.1.s1774713000$o1$g1$t1774713047$j13$l0$h0",
+        "domain": ".fairsketch.com",
+        "path": "/",
+        "expiry": 1809273047000,
+        "secure": false,
+        "httpOnly": false
+    },
+    {
+        "name": "rise_csrf_cookie",
+        "value": "f9741c854aa061d82aef3516d0410a51",
+        "domain": "rise.fairsketch.com",
+        "path": "/",
+        "expiry": 1774720198000,
+        "secure": true,
+        "httpOnly": true
+    },
+    {
+        "name": "_gat_gtag_UA_124506913_3",
+        "value": "1",
+        "domain": ".fairsketch.com",
+        "path": "/",
+        "expiry": 1774713060000,
+        "secure": false,
+        "httpOnly": false
+    },
+    {
+        "name": "_gid",
+        "value": "GA1.2.1849833282.1774713000",
+        "domain": ".fairsketch.com",
+        "path": "/",
+        "expiry": 1774799447000,
+        "secure": false,
+        "httpOnly": false
+    }
+]

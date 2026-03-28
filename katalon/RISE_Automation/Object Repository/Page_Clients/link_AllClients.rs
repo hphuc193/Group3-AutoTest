@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_AllClients</name>
+   <tag></tag>
+   <elementGuidId>aa951c70-5f96-4981-a6d8-4ca9fd3aa995</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='client-table_wrapper']/div/div/div/div[2]/div/div/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.dropdown-item.smart-filter-item.list-group-item.clickable.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ac2903a3-7604-4dc1-854b-781e6ba6d93e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>7fc27ba4-4185-450c-9e2e-e2621edde9c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item smart-filter-item list-group-item clickable active</value>
+      <webElementGuid>4d5f36da-fdc0-49e4-92c9-39ee7651c730</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>jyetvrypad</value>
+      <webElementGuid>c843b61f-e84d-4bda-82a4-4f1cfdefe61c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All clients</value>
+      <webElementGuid>df876642-502a-41b4-992b-769d63f83ba9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;client-table_wrapper&quot;)/div[@class=&quot;filter-section-container&quot;]/div[@class=&quot;filter-section-flex-row&quot;]/div[@class=&quot;filter-section-left&quot;]/div[@class=&quot;filter-item-box smart-filter-dropdown-box&quot;]/div[@class=&quot;dropdown smart-filter-dropdown-container&quot;]/div[@class=&quot;dropdown-menu w300 show&quot;]/ul[@class=&quot;list-group smart-filter-list-group&quot;]/li[1]/a[@class=&quot;dropdown-item smart-filter-item list-group-item clickable active&quot;]</value>
+      <webElementGuid>edea58ac-040b-4efc-b330-7288ddf060be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='client-table_wrapper']/div/div/div/div[2]/div/div/ul/li/a</value>
+      <webElementGuid>86729f28-f8f8-4af2-8e98-829c9f557b62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'All clients')]</value>
+      <webElementGuid>16d8baf9-7214-4e95-b477-3be0a2b2baf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Filters'])[1]/following::a[2]</value>
+      <webElementGuid>2735efb5-681e-4ca0-83bc-940a14cd2b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::a[3]</value>
+      <webElementGuid>54afec7c-3ff4-42c9-a573-28becc715bb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Has due'])[2]/preceding::a[6]</value>
+      <webElementGuid>79843657-9ec0-408b-ae32-38a680536c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Has open projects'])[2]/preceding::a[6]</value>
+      <webElementGuid>89f2ca24-89c8-4c68-bdef-3c02c50220d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All clients']/parent::*</value>
+      <webElementGuid>9eed93c0-7dd6-42f0-8669-13904c23a829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[55]</value>
+      <webElementGuid>2af7da0e-d5ed-498d-b8ee-6d42ba1e9bbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div/ul/li/a</value>
+      <webElementGuid>de2c7178-cf6b-4e7c-aee5-458440e896d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'All clients' or . = 'All clients')]</value>
+      <webElementGuid>87a5194c-8482-458b-b077-2383d2d0d056</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

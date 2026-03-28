@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Setup - Login and save cookies for admin and client.
+Run this once before running FE2-FE5 test suites. Re-run when cookies expire (~6h).</description>
+   <name>Setup_Auth</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-setup-auth-001</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,4 @@
+scenario,filterName,expectedResult
+TC_CLIENT_FILTER_001 - Filter by Has open projects,Has open projects,has_rows
+TC_CLIENT_FILTER_002 - Filter by Has due,Has due,has_rows
+TC_CLIENT_FILTER_003 - Clear filter resets client list,clear_filter,all_clients

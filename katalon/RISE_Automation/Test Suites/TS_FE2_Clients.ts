@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_FE2_Clients</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>27d6dd33-ae8f-4353-969a-8aac5d5c93db</testSuiteGuid>
+   <testCaseLink>
+      <guid>66219dea-135f-4932-aa39-a18c406dafaa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Client_Filter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7a36997c-fb5b-4f79-b7b5-4d0b98121e31</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE2_Client_Filter_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7a36997c-fb5b-4f79-b7b5-4d0b98121e31</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>aeb032bb-c0cd-4fd2-8dfb-329bce8d8ddb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7a36997c-fb5b-4f79-b7b5-4d0b98121e31</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>filterName</value>
+         <variableId>b1589215-04da-4a31-bff0-bbe5f364cb8b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7a36997c-fb5b-4f79-b7b5-4d0b98121e31</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>5b046936-3012-4f75-8319-5ee3e703e45d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
