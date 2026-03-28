@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_FE3_Projects</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c56ca7c0-f02f-4ced-9f1c-24d11b7616b2</testSuiteGuid>
+   <testCaseLink>
+      <guid>1ca16454-4b96-4434-8b34-268fdfdc266d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE3_Projects/TC_Project_Add</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4f18d801-88de-467d-a858-a4f650a6f110</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE3_Project_Add_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4f18d801-88de-467d-a858-a4f650a6f110</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>2f8890e4-3e00-421d-8d39-b97cb275d16f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f18d801-88de-467d-a858-a4f650a6f110</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>f8dcb889-6317-41d2-b81e-0b872981f075</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f18d801-88de-467d-a858-a4f650a6f110</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>clientName</value>
+         <variableId>50afbb56-f115-46bf-94e9-b070e4dabf14</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f18d801-88de-467d-a858-a4f650a6f110</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>startDate</value>
+         <variableId>6ee00791-1e32-4159-9ff5-e7047739e2d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f18d801-88de-467d-a858-a4f650a6f110</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>69855d2d-050c-4df0-b1f7-716339391a57</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

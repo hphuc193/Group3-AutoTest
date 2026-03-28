@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AddProject</name>
+   <tag></tag>
+   <elementGuidId>300fac90-cf33-4048-9aa1-7931e132aaef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/div/div/div/div/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9004ba7a-69ce-4637-bd40-1ee46ba92b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>3789084c-bd50-468e-a1a3-d8f7431b3bba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+      <webElementGuid>15781a24-bf33-4d2c-af8d-b8628515624b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add project</value>
+      <webElementGuid>93e2e62b-6b96-42cf-81d6-9b5baa14d5cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-act</name>
+      <type>Main</type>
+      <value>ajax-modal</value>
+      <webElementGuid>5c9820d1-20c1-40fa-adf0-48cbd69ca331</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title</name>
+      <type>Main</type>
+      <value>Add project</value>
+      <webElementGuid>d820e1f6-9d23-43bf-8f02-793457751744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action-url</name>
+      <type>Main</type>
+      <value>https://rise.fairsketch.com/index.php/projects/modal_form</value>
+      <webElementGuid>14124fa0-39a4-4195-b812-977af66fa6cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Add project</value>
+      <webElementGuid>b7dbd08a-3ecb-467e-a0d1-fa0c6e0ef72c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/div[@class=&quot;flex-shrink-0&quot;]/div[@class=&quot;list-section&quot;]/div[@class=&quot;page-title clearfix b-a&quot;]/div[@class=&quot;title-button-group skip-dropdown-migration&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>0e8ab33b-a988-4d29-99ac-b5c60aab7a55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/div/div/div/div/a[3]</value>
+      <webElementGuid>7b32b679-c731-4cec-89c4-0f33a7364248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Add project')])[2]</value>
+      <webElementGuid>89d82dfb-99a2-4c06-a54e-c3d61cba44b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[2]/following::a[3]</value>
+      <webElementGuid>9007105e-5fab-438b-b56b-c196a017dcc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::a[3]</value>
+      <webElementGuid>3cd720c1-71f6-44d2-ad17-5eb67dc9814d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/preceding::a[1]</value>
+      <webElementGuid>0abcd57d-ac33-4cd8-8be5-5402b68f9d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Filters'])[1]/preceding::a[1]</value>
+      <webElementGuid>e8fb5f63-39b8-4786-be20-1498cf5a07d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add project']/parent::*</value>
+      <webElementGuid>715a9e0e-e548-4209-8bf5-b2fffa81de7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[34]</value>
+      <webElementGuid>c04ad2a7-2bd4-4c05-bccc-80e707476431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/a[3]</value>
+      <webElementGuid>1e0cac62-2e1c-4061-9f54-607038a4495d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @title = 'Add project' and (text() = ' Add project' or . = ' Add project')]</value>
+      <webElementGuid>5e2afac6-a3f2-4aa8-b1df-423becf675fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
