@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_ID_Desc</name>
+   <tag></tag>
+   <elementGuidId>e094f2b1-a8d1-4ac6-b251-1f6cf8050e2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='project-table']//th[contains(@class,'dt-ordering-desc')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>8f6f9f72-cfaf-4fec-b60e-90ef19a9730a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774716183358</value>
+      <webElementGuid>e2fdc3a8-28bb-4220-8efc-5608df2c57c9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

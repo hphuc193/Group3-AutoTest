@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE3 - Project Edit Test Case (Data-driven)
+Covers: TC_PROJECT_EDIT_001 to TC_PROJECT_EDIT_002
+Edit project with valid/invalid data.</description>
+   <name>TC_Project_Edit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-project-edit-fe3-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2420cb99-dd73-46bd-a1bc-e4c6e28d0f16</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3035ae72-7f50-4e5f-926a-b13f0218be50</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8b505fd-be8c-4093-9d3f-2fbf7ec50ef9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58760926-abf7-4dc2-91d2-1fbab5101620</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2420cb99-dd73-46bd-a1bc-e4c6e28d0f16</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3035ae72-7f50-4e5f-926a-b13f0218be50</id>
+      <masked>false</masked>
+      <name>newTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8b505fd-be8c-4093-9d3f-2fbf7ec50ef9</id>
+      <masked>false</masked>
+      <name>deadline</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58760926-abf7-4dc2-91d2-1fbab5101620</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>
