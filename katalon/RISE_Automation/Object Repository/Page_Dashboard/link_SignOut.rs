@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_SignOut</name>
+   <tag></tag>
+   <elementGuidId>da63df3e-0780-4714-b62d-86e5b7761aea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='default-navbar']/div/div/div/ul/li[7]/ul/li[7]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(7) > a.dropdown-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>04786c66-653d-4577-89d1-217652d8709c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://rise.fairsketch.com/index.php/signin/sign_out</value>
+      <webElementGuid>f408ea0d-f28b-463b-ba24-82122de75580</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>8bfd3921-e4be-484c-b3ba-6c7ac440432f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Sign Out</value>
+      <webElementGuid>e7d7bcfb-b3cb-4985-bbc8-6d6761ddfe05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;default-navbar&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;collapse navbar-collapse&quot;]/div[@class=&quot;d-flex w-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-end w200 user-dropdown-menu show&quot;]/li[7]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>510818e2-a5a8-4da7-abcf-8706527e6084</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='default-navbar']/div/div/div/ul/li[7]/ul/li[7]/a</value>
+      <webElementGuid>165c1304-3eb7-4161-a531-57ec61bdc610</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign Out')]</value>
+      <webElementGuid>68cd5a28-04ab-4119-9533-0f0dcaabce5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My preferences'])[1]/following::a[1]</value>
+      <webElementGuid>2e98edf7-3cbd-4588-b9d0-1a0183d7d206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::a[2]</value>
+      <webElementGuid>14f4e651-f922-4a52-ae4f-d3104ebd183c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::a[4]</value>
+      <webElementGuid>ff9dc046-cfc9-46cc-aba2-b41d68f68da3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[1]/preceding::a[5]</value>
+      <webElementGuid>8d790983-f5b2-44a9-bb99-da0b29165abf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
+      <webElementGuid>c6d0b64a-63e1-4ccb-92a9-ca3d3243eecd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://rise.fairsketch.com/index.php/signin/sign_out')]</value>
+      <webElementGuid>5536bdc9-18ab-4829-8f5e-9bb9ec3289af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/ul/li[7]/a</value>
+      <webElementGuid>f1ad39b9-701c-4403-8679-730a10437dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://rise.fairsketch.com/index.php/signin/sign_out' and (text() = ' Sign Out' or . = ' Sign Out')]</value>
+      <webElementGuid>6fcb3d8c-e35b-4016-98fa-05eed70b24cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

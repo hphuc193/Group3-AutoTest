@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>ea637773-e726-43c9-a6ca-0a018e0df1b5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE1_Auth/TC_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -56,5 +56,12 @@
          <value>expectedResult</value>
          <variableId>5c889dd3-c8f4-4b97-b1c9-d6ee480f6d9c</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5172ea9-d819-48ac-943f-3821f5e38cd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE1_Auth/TC_Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

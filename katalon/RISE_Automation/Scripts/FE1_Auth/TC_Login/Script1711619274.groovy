@@ -47,7 +47,7 @@ WebUI.delay(2)
 // Verify expected result
 if (expectedResult == 'dashboard') {
 	// Positive: should redirect to dashboard
-	WebUI.waitForElementPresent(findTestObject('Page_Login/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
+	WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 	String currentUrl = WebUI.getUrl()
 	assert currentUrl.contains('dashboard') : "Expected URL to contain 'dashboard' but got: ${currentUrl}"
 	WebUI.comment("PASSED: ${scenario}")

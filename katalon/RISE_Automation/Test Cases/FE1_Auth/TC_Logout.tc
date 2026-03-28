@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE1 - Logout Test Case
+Covers: TC_LOGOUT_001
+Login as Admin, logout, verify redirect to login page and cannot access dashboard.</description>
+   <name>TC_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-logout-fe1-001</testCaseGuid>
+</TestCaseEntity>
