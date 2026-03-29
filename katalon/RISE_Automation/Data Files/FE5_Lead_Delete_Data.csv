@@ -1,0 +1,3 @@
+scenario,action,expectedResult
+TC_LEAD_DEL_001 - Delete lead successfully,confirm,deleted
+TC_LEAD_DEL_002 - Cancel delete keeps lead,cancel,still_exists

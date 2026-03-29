@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE5 - Lead Delete Test Case (Data-driven)
+Covers: TC_LEAD_DEL_001 to TC_LEAD_DEL_002
+Delete lead (confirm) and cancel delete.</description>
+   <name>TC_Lead_Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-lead-del-fe5-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46e85d6f-3414-41b8-ac4d-69c4a04b703c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31d182b0-e130-4bdb-bde0-585bb7509ad8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00ac5543-ea78-4975-a3d7-7e99945e2def</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46e85d6f-3414-41b8-ac4d-69c4a04b703c</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31d182b0-e130-4bdb-bde0-585bb7509ad8</id>
+      <masked>false</masked>
+      <name>action</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00ac5543-ea78-4975-a3d7-7e99945e2def</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>
