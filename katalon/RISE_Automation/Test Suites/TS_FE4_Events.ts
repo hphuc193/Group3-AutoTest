@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3a1fe9bd-557b-40d6-b801-89d3fba5d633</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -72,7 +72,7 @@
    <testCaseLink>
       <guid>b6faf55e-377c-49e5-862c-ccd358525ab7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_Label</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -112,14 +112,14 @@
    <testCaseLink>
       <guid>adaf7402-db6e-4476-91ea-0075e29b1bd5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_View</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fa39a7c1-a565-48c4-a747-30922c717ec1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -188,6 +188,46 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>fb628f86-aadc-4c93-9ab5-76d8b985d298</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9822007c-66dc-4574-a4d2-6ea6ef802bde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE4_Events/TC_Event_Reminder</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c59b7890-f2c5-4aa1-b27c-c17100b71014</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/FE4_Event_Reminder_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c59b7890-f2c5-4aa1-b27c-c17100b71014</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>5b9577c8-4805-4907-a971-8b8001a09be4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c59b7890-f2c5-4aa1-b27c-c17100b71014</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>reminderTitle</value>
+         <variableId>b40cc7a7-b0e0-4a2a-85f4-b1dfd8722735</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c59b7890-f2c5-4aa1-b27c-c17100b71014</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>addSecond</value>
+         <variableId>851b6635-c101-43f1-a40f-aba9a2aaffb7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c59b7890-f2c5-4aa1-b27c-c17100b71014</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>117fa073-6f98-4681-9efd-d3af87ca871b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

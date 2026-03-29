@@ -1,0 +1,4 @@
+scenario,reminderTitle,addSecond,expectedResult
+TC_EVENT_REMINDER_001 - Add reminder with valid data,Reminder_{timestamp},no,success
+TC_EVENT_REMINDER_002 - Add reminder with empty title,,no,form_stays_open
+TC_EVENT_REMINDER_003 - Add multiple reminders,Reminder_{timestamp},yes,success_multiple
