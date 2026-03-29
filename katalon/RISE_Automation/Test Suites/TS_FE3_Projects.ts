@@ -106,7 +106,7 @@
          <combinationType>ONE</combinationType>
          <id>79f11abd-5a6f-4018-937c-d54e8a03942e</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/FE3_Project_Delete_Test_Data</testDataId>

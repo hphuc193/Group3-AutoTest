@@ -1,0 +1,3 @@
+scenario,labelName,selectColor,expectedResult
+TC_EVENT_LABEL_001 - Add new event label,TestLabel_{timestamp},yes,success
+TC_EVENT_LABEL_002 - Add label with empty name,,no,modal_stays_open

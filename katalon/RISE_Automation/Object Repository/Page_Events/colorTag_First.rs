@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>colorTag_First</name>
+   <tag></tag>
+   <elementGuidId>d4f5a747-12d1-4eab-9f24-dba9ef17ec47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.color-palet > span.color-tag.clickable.mr15</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='labels-form']/div/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cba4f1f4-e06c-47c3-9abe-05cfcde0c02a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>color-tag clickable mr15 </value>
+      <webElementGuid>c48a44ef-8606-488b-869c-7b5e92824270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-color</name>
+      <type>Main</type>
+      <value>#83c340</value>
+      <webElementGuid>a2d5d225-8178-4473-b072-24b69162290d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;labels-form&quot;)/div[@class=&quot;modal-body clearfix label-modal-body&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;add-label clearfix pb10&quot;]/div[@class=&quot;form-group text-center&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;color-palet&quot;]/span[@class=&quot;color-tag clickable mr15&quot;]</value>
+      <webElementGuid>1bf24044-672d-4b28-9f7a-41b01489cb7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='labels-form']/div/div/div/div/div/div/span</value>
+      <webElementGuid>ff2651f4-93cb-4870-98b8-7b09fecbabf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div/div/span</value>
+      <webElementGuid>812e4e61-e9b2-4b78-acd9-2e7e8c0bf61b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

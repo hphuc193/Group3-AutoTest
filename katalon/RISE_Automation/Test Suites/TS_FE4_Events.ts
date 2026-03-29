@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3a1fe9bd-557b-40d6-b801-89d3fba5d633</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -67,6 +67,46 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>b34c4c43-1f55-4faa-840d-edbc92e11e58</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6faf55e-377c-49e5-862c-ccd358525ab7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE4_Events/TC_Event_Label</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4f281992-089d-46f7-926a-b34d33b335fc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE4_Event_Label_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4f281992-089d-46f7-926a-b34d33b335fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>bf930061-2ad3-43d3-b8d3-fa3db6c3329f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f281992-089d-46f7-926a-b34d33b335fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>labelName</value>
+         <variableId>5910c040-8bdc-4d89-84c6-6097816317c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f281992-089d-46f7-926a-b34d33b335fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>selectColor</value>
+         <variableId>0fa7c44f-5e6a-4fe7-83af-70b23bddda5b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f281992-089d-46f7-926a-b34d33b335fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>6db935af-b5d5-4f91-b9cf-9859ffdb8080</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
