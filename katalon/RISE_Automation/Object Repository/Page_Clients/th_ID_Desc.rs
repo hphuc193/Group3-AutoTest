@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_ID_Desc</name>
+   <tag></tag>
+   <elementGuidId>a6deda97-9fb8-4322-a8cc-bb27277ca250</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='client-table']//th[@aria-sort='descending']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>d8b8c48b-dd7b-45ca-8fe0-f9de511a0e14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774794505235</value>
+      <webElementGuid>28d4abc7-5dd9-465b-87f7-6b4a50adb197</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

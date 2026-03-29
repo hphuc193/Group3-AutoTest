@@ -1,0 +1,3 @@
+scenario,newCompanyName,newAddress,expectedResult
+TC_CLIENT_EDIT_001 - Edit client info,TestCo_Updated_{timestamp},456 New Street,success
+TC_CLIENT_EDIT_002 - Edit client with empty company name,,,modal_stays_open

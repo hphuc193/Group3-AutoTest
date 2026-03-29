@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>da8fe453-53d9-40c6-9661-89437dc4e979</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -55,6 +55,46 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>7c863831-d926-486b-90fc-ac012a43f0c3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90f090c1-8c5e-4355-9070-0e62bc11f403</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Client_Edit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7e2e1292-6ea6-4edf-adc3-2abd578c510d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE2_Client_Edit_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7e2e1292-6ea6-4edf-adc3-2abd578c510d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>c72be66a-f682-4969-961c-99e0df7aaa87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7e2e1292-6ea6-4edf-adc3-2abd578c510d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newCompanyName</value>
+         <variableId>1e15bb6c-5a62-4b53-8446-5ddec2f7f4ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7e2e1292-6ea6-4edf-adc3-2abd578c510d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newAddress</value>
+         <variableId>f4d76bc1-ca86-4b45-9276-6dcac6c1ec56</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7e2e1292-6ea6-4edf-adc3-2abd578c510d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>2c76bac7-33b4-4ef4-98c7-41438b4af789</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

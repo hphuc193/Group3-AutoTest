@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_EditFirstClient</name>
+   <tag></tag>
+   <elementGuidId>86ffd618-712b-4940-8a97-e78277e25600</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='client-table']//tbody//tr[1]//a[contains(@class,'edit')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>0e6716e6-facd-45b6-95b9-6041b2789f3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774794607033</value>
+      <webElementGuid>f84f5977-b1c3-43a7-9fe6-ffaa6a9e1d78</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
