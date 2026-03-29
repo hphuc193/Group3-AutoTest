@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>9745e103-71fa-4538-8685-fa3d47aa3f19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE1_Auth/TC_Register</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -132,6 +132,46 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>0b62dcb3-ed99-4a2a-9447-281e9b28ea38</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c265814d-ae7a-48db-b71f-61792ef09ce6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE1_Auth/TC_ResetPassword</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b0d26324-d6d1-4043-b4f8-021e3378ac1f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE1_ResetPassword_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b0d26324-d6d1-4043-b4f8-021e3378ac1f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>da2cc5d0-0f99-45ee-8699-9e8ad1721f4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b0d26324-d6d1-4043-b4f8-021e3378ac1f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>b2a25457-49ab-4c51-ad38-a0dcf65a0e97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b0d26324-d6d1-4043-b4f8-021e3378ac1f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>needCaptcha</value>
+         <variableId>a0172f5d-c2e1-4f96-b6dc-be17b143708e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b0d26324-d6d1-4043-b4f8-021e3378ac1f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>a7844523-90bf-4d61-8ae6-c18f6060a3ea</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
