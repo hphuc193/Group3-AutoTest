@@ -8,24 +8,6 @@ Add member, check duplicate member not in dropdown.</description>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>tc-project-member-fe3-001</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5c2f38fe-54c9-4703-8ad9-3638175ad858</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2925a16d-104e-4b4c-8ba2-d71919980926</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>083b528d-f439-4f16-9597-130da8fe39dd</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

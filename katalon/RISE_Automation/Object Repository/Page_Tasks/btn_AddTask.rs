@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AddTask</name>
+   <tag></tag>
+   <elementGuidId>63d91c74-d678-40c0-9af0-35bfff2f6236</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/ul/div/div/a[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bf2afbc5-ff94-441a-9f4d-876fadada6cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>9dddfd33-76df-418a-8267-68f4fe8d0f85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+      <webElementGuid>6ba978cb-a0ee-4a91-b36f-2dbaadc4c467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add task</value>
+      <webElementGuid>1627ece1-bc92-428b-b210-1a4488b07806</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-act</name>
+      <type>Main</type>
+      <value>ajax-modal</value>
+      <webElementGuid>911da3b6-9298-42ca-b292-6f6e568c2c95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title</name>
+      <type>Main</type>
+      <value>Add task</value>
+      <webElementGuid>99a05287-dcc3-49d1-bdc1-1aee23661a1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action-url</name>
+      <type>Main</type>
+      <value>https://rise.fairsketch.com/index.php/tasks/modal_form</value>
+      <webElementGuid>6d759907-d855-4014-924f-17910bc2e2b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Add task</value>
+      <webElementGuid>c5bf2ad6-03b6-47e2-b3a0-cedbc5c69c20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/ul[@class=&quot;nav nav-tabs bg-white title&quot;]/div[@class=&quot;tab-title clearfix no-border&quot;]/div[@class=&quot;title-button-group skip-dropdown-migration&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>2a979543-758c-4dbe-be54-0e875e51a54b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/ul/div/div/a[4]</value>
+      <webElementGuid>ca5eeccb-1b36-4e40-82c8-076d6679b4c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Add task')])[2]</value>
+      <webElementGuid>acf1db0f-9336-4432-a6e3-ef6a2bae8a46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gantt'])[1]/following::a[4]</value>
+      <webElementGuid>2bef69d0-faf0-4379-aada-e46c3221abe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kanban'])[1]/following::a[5]</value>
+      <webElementGuid>1cc65fa7-dc96-452f-9447-b3a107fc899f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/preceding::a[1]</value>
+      <webElementGuid>52f206bc-55f3-4477-be48-0624bf105eee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Filters'])[1]/preceding::a[1]</value>
+      <webElementGuid>505f5a28-952b-4f87-b4d7-c099032c3c60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[35]</value>
+      <webElementGuid>63e82a6e-447e-49f4-9d22-3e9b692ea56b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a[4]</value>
+      <webElementGuid>f7ef50e2-dbd8-4c3f-8b16-96aa225c6707</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @title = 'Add task' and (text() = ' Add task' or . = ' Add task')]</value>
+      <webElementGuid>2cfc689d-d868-48ea-bd36-9467fd96459c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

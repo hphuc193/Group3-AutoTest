@@ -1,0 +1,4 @@
+scenario,taskTitle,selectAssignee,expectedResult
+TC_TASK_ADD_001 - Add task with valid data,TestTask_{timestamp},yes,success
+TC_TASK_ADD_002 - Add task with empty title,,no,modal_stays_open
+TC_TASK_ADD_003 - Add task without assignee,TestTask_NoAssign_{timestamp},none,no_record

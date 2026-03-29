@@ -175,7 +175,7 @@
    <testCaseLink>
       <guid>c468cf61-3355-45ec-8f8f-5260a2288dcf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Member</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -204,6 +204,46 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>083b528d-f439-4f16-9597-130da8fe39dd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>caa6c81b-516d-42a3-901b-542fe6afdaab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE3_Projects/TC_Task_Add</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1e7f7bb7-5625-4c1e-8ee5-1853212b62c2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE3_Task_Add_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1e7f7bb7-5625-4c1e-8ee5-1853212b62c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>f6aff062-7faa-4a9b-bfa0-2fee019ab75f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e7f7bb7-5625-4c1e-8ee5-1853212b62c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>taskTitle</value>
+         <variableId>eff0102e-bada-4e84-badf-1cbefa3af41e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e7f7bb7-5625-4c1e-8ee5-1853212b62c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>selectAssignee</value>
+         <variableId>8bf6b02e-dd42-4713-905a-db68fde2e40a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e7f7bb7-5625-4c1e-8ee5-1853212b62c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>66e53008-f479-46bf-8909-3af3c466ba0d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
