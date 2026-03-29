@@ -60,7 +60,7 @@
    <testCaseLink>
       <guid>90f090c1-8c5e-4355-9070-0e62bc11f403</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -95,6 +95,40 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>2c76bac7-33b4-4ef4-98c7-41438b4af789</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2a5473c-476d-4a31-a0fb-2223e8328329</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Client_Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0f891387-3b6c-428e-861b-54aace5d1557</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE2_Client_Delete_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0f891387-3b6c-428e-861b-54aace5d1557</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>fe239d8a-1707-4fb2-8db3-d4933d03c524</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0f891387-3b6c-428e-861b-54aace5d1557</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>action</value>
+         <variableId>f691e41a-cbe1-4b4d-ace6-55db25190bd5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0f891387-3b6c-428e-861b-54aace5d1557</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>60862cb7-8305-4374-8e51-e9932f2c76b1</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
