@@ -1,0 +1,4 @@
+scenario,newTitle,changeColor,expectedResult
+TC_EVENT_EDIT_001 - Edit event title,TestEvent_Updated_{timestamp},no,success
+TC_EVENT_EDIT_002 - Edit event with empty title,,no,modal_stays_open
+TC_EVENT_EDIT_003 - Edit event color,,yes,success

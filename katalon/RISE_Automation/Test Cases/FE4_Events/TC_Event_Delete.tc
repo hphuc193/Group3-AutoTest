@@ -8,24 +8,6 @@ Delete event (confirm) and cancel delete.</description>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>tc-event-del-fe4-001</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e1ca8f9b-98c0-49ce-aaaf-3b8a854b3092</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>eba25269-2cb9-44de-b837-b6af3a632715</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>05499296-afb7-4a50-88fd-d462ed71ba5c</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

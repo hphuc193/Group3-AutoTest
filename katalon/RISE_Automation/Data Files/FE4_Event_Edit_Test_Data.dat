@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>FE4_Event_Edit_Test_Data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>039942b6-bca4-42d7-accc-cfd28aa15c53</dataFileGUID>
+   <dataSourceUrl>/Users/lap15528/Documents/UMT/Software_Testing/RISE_Automation_2201700083_2201700077_2201700053/katalon/RISE_Automation/Data Files/FE4_Event_Edit_Data.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>colorTag_Inactive</name>
+   <tag></tag>
+   <elementGuidId>4058b4c6-deca-4c53-abea-3d7fc76909d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'color-palet')]//span[contains(@class,'color-tag')][not(contains(@class,'active'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>1a16d080-e7a5-482c-81f5-305d2c632407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774778957598</value>
+      <webElementGuid>3e13915c-0fab-4751-a756-66407d1d42bd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

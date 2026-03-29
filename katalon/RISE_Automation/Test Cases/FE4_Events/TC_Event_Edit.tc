@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE4 - Event Edit Test Case (Data-driven)
+Covers: TC_EVENT_EDIT_001 to TC_EVENT_EDIT_003
+Edit event title, empty title, change color.</description>
+   <name>TC_Event_Edit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-event-edit-fe4-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b59ab65-f620-4388-9977-94d071f7fb7f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68d73430-8c9e-433b-864e-2485654685d7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d96cab6-7ca1-4f86-8e30-1cdf3451cd61</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb628f86-aadc-4c93-9ab5-76d8b985d298</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b59ab65-f620-4388-9977-94d071f7fb7f</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68d73430-8c9e-433b-864e-2485654685d7</id>
+      <masked>false</masked>
+      <name>newTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d96cab6-7ca1-4f86-8e30-1cdf3451cd61</id>
+      <masked>false</masked>
+      <name>changeColor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb628f86-aadc-4c93-9ab5-76d8b985d298</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>
