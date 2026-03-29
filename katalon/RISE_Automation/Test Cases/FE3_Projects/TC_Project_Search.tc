@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE3 - Project Search Test Case (Data-driven)
+Covers: TC_PROJECT_SEARCH_001 to TC_PROJECT_SEARCH_003
+Search project by name, client, non-existing keyword.</description>
+   <name>TC_Project_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-project-search-fe3-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eaebd94a-6783-44f7-b599-a98b38602212</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89383d2d-32e7-4099-b32e-6cc16ef9c380</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff15b8b4-e4c3-4b99-9bb5-4e1fd3daa0d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eaebd94a-6783-44f7-b599-a98b38602212</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>89383d2d-32e7-4099-b32e-6cc16ef9c380</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff15b8b4-e4c3-4b99-9bb5-4e1fd3daa0d9</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

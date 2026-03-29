@@ -1,0 +1,4 @@
+scenario,keyword,expectedResult
+TC_PROJECT_SEARCH_001 - Search by project name,SEO Optimization Strategy,has_results
+TC_PROJECT_SEARCH_002 - Search by client name,Birdie Erdman,has_results
+TC_PROJECT_SEARCH_003 - Search with non-existing keyword,xyzkhongtonqui123,no_results

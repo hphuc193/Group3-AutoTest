@@ -100,7 +100,7 @@
    <testCaseLink>
       <guid>cddbd714-5dee-44cd-847a-4b674b47ef9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -129,6 +129,40 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>28fd5265-d09c-4447-bbd1-6bd2bd074b72</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7c42fcc-52cd-4816-b73e-6500a1cedc60</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE3_Projects/TC_Project_Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>88c2c151-68d1-41b4-9980-8b4ece11820f</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/FE3_Project_Search_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>88c2c151-68d1-41b4-9980-8b4ece11820f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>eaebd94a-6783-44f7-b599-a98b38602212</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>88c2c151-68d1-41b4-9980-8b4ece11820f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>keyword</value>
+         <variableId>89383d2d-32e7-4099-b32e-6cc16ef9c380</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>88c2c151-68d1-41b4-9980-8b4ece11820f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>ff15b8b4-e4c3-4b99-9bb5-4e1fd3daa0d9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
