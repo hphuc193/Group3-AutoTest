@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>b7c42fcc-52cd-4816-b73e-6500a1cedc60</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -164,5 +164,12 @@
          <value>expectedResult</value>
          <variableId>ff15b8b4-e4c3-4b99-9bb5-4e1fd3daa0d9</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a89f329-edaf-4501-8756-6c0f69904c6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE3_Projects/TC_Project_View</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

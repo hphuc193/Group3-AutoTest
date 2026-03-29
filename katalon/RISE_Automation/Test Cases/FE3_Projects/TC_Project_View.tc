@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE3 - Project View Test Case
+Covers: TC_PROJECT_VIEW_001
+Click project name, verify project detail page with key sections.</description>
+   <name>TC_Project_View</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-project-view-fe3-001</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_FirstProjectTitle</name>
+   <tag></tag>
+   <elementGuidId>a219cb27-837e-46ae-bdd1-6138d46120ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='project-table']//tbody[1]//tr[1]//td[@class=&quot;all&quot;]//a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ee42fd72-4e60-4fe4-8215-0dc63fb0f047</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774784097102</value>
+      <webElementGuid>c49d139e-3625-40f2-ba23-60904914521a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
