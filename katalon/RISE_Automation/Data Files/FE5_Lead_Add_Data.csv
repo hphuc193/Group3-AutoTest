@@ -1,0 +1,5 @@
+scenario,leadName,selectOwner,selectSource,selectManager,expectedResult
+TC_LEAD_ADD_001 - Add lead with valid data,TestLead_{timestamp},yes,yes,no,success
+TC_LEAD_ADD_002 - Add lead with empty name,,,,no,modal_stays_open
+TC_LEAD_ADD_003 - Add lead without selecting Owner,TestLead_NoOwner_{timestamp},no,yes,no,success
+TC_LEAD_ADD_004 - Add lead with Managers,TestLead_WithMgr_{timestamp},yes,yes,yes,success
