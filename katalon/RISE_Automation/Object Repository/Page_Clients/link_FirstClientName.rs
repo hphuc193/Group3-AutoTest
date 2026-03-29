@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_FirstClientName</name>
+   <tag></tag>
+   <elementGuidId>aaacbf61-a9f0-40b8-9643-6c36d7bdff36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='client-table']//tbody[1]//tr[1]//td[@class=&quot;all&quot;]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>6631f986-8fe7-432b-b0c7-d54105a49af6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774796011397</value>
+      <webElementGuid>490afff8-ff08-4776-98d8-2d2539dd4037</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE2 - Client View Test Case
+Covers: TC_CLIENT_VIEW_001
+Click client name, verify client detail page with key tabs.</description>
+   <name>TC_Client_View</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-client-view-fe2-001</testCaseGuid>
+</TestCaseEntity>

@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>536c8f33-76d1-4d1c-abb0-069c3f7e1c32</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -164,6 +164,13 @@
          <value>expectedResult</value>
          <variableId>d4d86098-01d6-4fc1-9cfb-81e8d4a19b61</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c665b84a-b76c-4064-8e7e-c5c70de88ba1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Client_View</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>66219dea-135f-4932-aa39-a18c406dafaa</guid>
