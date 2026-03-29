@@ -1,0 +1,4 @@
+scenario,newName,changeStatus,expectedResult
+TC_LEAD_EDIT_001 - Edit lead name,TestLead_Updated_{timestamp},no,success
+TC_LEAD_EDIT_002 - Edit lead with empty name,,no,modal_stays_open
+TC_LEAD_EDIT_003 - Change lead status,,yes,success

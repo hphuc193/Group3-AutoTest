@@ -8,42 +8,6 @@ Add lead with valid/empty data, without owner, with managers.</description>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>tc-lead-add-fe5-001</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f5e524e3-f067-428f-b6ab-3a875036ee05</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b255ee2a-99c6-4b83-82e8-8edab803109e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>0ab9d7a2-937d-4b61-9feb-bd64d6f5ce26</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d1a12c72-69c4-4b3c-95a5-6e93b479a649</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3fef0f66-f351-4f30-aa4e-3addb8d1ed39</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>19206d3c-edec-4159-9ec8-b3cb4a8d9aef</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

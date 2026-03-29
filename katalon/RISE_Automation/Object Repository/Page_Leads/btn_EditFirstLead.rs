@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_EditFirstLead</name>
+   <tag></tag>
+   <elementGuidId>447b5ce6-7350-4fc8-9bfd-0d0bf4585347</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='lead-table']//tbody//tr[1]//a[contains(@class,'edit')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>f691f483-1a62-46c3-ace1-158a1d5f6bbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774798024269</value>
+      <webElementGuid>bc5aaf08-2ac1-4c3e-bc6e-8fe5ac219eac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
