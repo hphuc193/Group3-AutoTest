@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE4 - Event View Test Case
+Covers: TC_EVENT_VIEW_001
+Click event on calendar, verify event details modal.</description>
+   <name>TC_Event_View</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-event-view-fe4-001</testCaseGuid>
+</TestCaseEntity>

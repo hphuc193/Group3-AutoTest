@@ -72,7 +72,7 @@
    <testCaseLink>
       <guid>b6faf55e-377c-49e5-862c-ccd358525ab7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_Label</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -108,5 +108,12 @@
          <value>expectedResult</value>
          <variableId>6db935af-b5d5-4f91-b9cf-9859ffdb8080</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>adaf7402-db6e-4476-91ea-0075e29b1bd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE4_Events/TC_Event_View</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
