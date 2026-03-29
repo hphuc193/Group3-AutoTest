@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AddClient</name>
+   <tag></tag>
+   <elementGuidId>a42c4bdf-6dff-45e7-9d10-8b8513dbc610</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='client-tabs']/div/div/a[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>47af732b-4114-4bbd-b98b-4bcc5d278b8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>ea5cbffd-613d-4478-9049-8fff4e3f7834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+      <webElementGuid>90c1a24d-4182-4025-90b8-9e19dc131886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add client</value>
+      <webElementGuid>cf9fdb08-7c7c-4b0c-9352-2abb3dd152a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-act</name>
+      <type>Main</type>
+      <value>ajax-modal</value>
+      <webElementGuid>d40cf824-3f4a-422f-a6e5-1ecd0f9fbf4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title</name>
+      <type>Main</type>
+      <value>Add client</value>
+      <webElementGuid>dc4afe34-ceaf-487a-9324-c753f14163cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action-url</name>
+      <type>Main</type>
+      <value>https://rise.fairsketch.com/index.php/clients/modal_form</value>
+      <webElementGuid>acaf397d-83fd-4e94-971d-480f0485c006</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Add client</value>
+      <webElementGuid>f86471ae-56ad-4c8e-8918-41677da2def0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;client-tabs&quot;)/div[@class=&quot;tab-title clearfix no-border&quot;]/div[@class=&quot;title-button-group skip-dropdown-migration&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>142097f0-6336-4fbd-b838-c774407f5fe9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='client-tabs']/div/div/a[3]</value>
+      <webElementGuid>6fd6819a-65cf-4be9-9dcf-eacd9bce5aae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add client')]</value>
+      <webElementGuid>67e16810-5d6f-4079-a281-0992f7c6d7e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::a[3]</value>
+      <webElementGuid>a4ba13d7-c110-4abc-a4b1-64c7014d4619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients'])[2]/following::a[4]</value>
+      <webElementGuid>3adda34b-ba47-4d23-b9c7-e441a6490d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total clients'])[1]/preceding::a[1]</value>
+      <webElementGuid>7073bf81-d147-4aa1-9c37-f3c3a025e7b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total contacts'])[1]/preceding::a[2]</value>
+      <webElementGuid>9bdfd6d7-b43c-43be-beca-b887e74aabb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add client']/parent::*</value>
+      <webElementGuid>27de2926-32df-4f6f-bc3f-70808dbf0278</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[34]</value>
+      <webElementGuid>0d315b75-5352-45e6-a87a-60ee812daaa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/div/div/a[3]</value>
+      <webElementGuid>24ab8c89-a277-409b-9141-f2ecbfa07bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @title = 'Add client' and (text() = ' Add client' or . = ' Add client')]</value>
+      <webElementGuid>7d2d2f76-4dac-46ac-b1b2-fe0bf382f541</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

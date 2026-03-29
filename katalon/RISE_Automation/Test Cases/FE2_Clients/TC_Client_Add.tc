@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>FE4 - Event Reminder Test Case (Data-driven)
-Covers: TC_EVENT_REMINDER_001 to TC_EVENT_REMINDER_003
-Add reminder, empty title, multiple reminders.</description>
-   <name>TC_Event_Reminder</name>
+   <description>FE2 - Client Add Test Case (Data-driven)
+Covers: TC_CLIENT_ADD_001 to TC_CLIENT_ADD_003
+Add client with valid/empty/duplicate data.</description>
+   <name>TC_Client_Add</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>tc-event-reminder-fe4-001</testCaseGuid>
+   <testCaseGuid>tc-client-add-fe2-001</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5b9577c8-4805-4907-a971-8b8001a09be4</id>
+      <id>afaf96ec-7ccd-411a-941e-9696840da3ae</id>
       <masked>false</masked>
       <name>scenario</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b40cc7a7-b0e0-4a2a-85f4-b1dfd8722735</id>
+      <id>f3afaf52-791c-4ab9-8592-960d5416da2b</id>
       <masked>false</masked>
-      <name>reminderTitle</name>
+      <name>companyName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>851b6635-c101-43f1-a40f-aba9a2aaffb7</id>
+      <id>4b46a662-671b-43b4-9375-491e7795a054</id>
       <masked>false</masked>
-      <name>addSecond</name>
+      <name>address</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>117fa073-6f98-4681-9efd-d3af87ca871b</id>
+      <id>f28093a4-1085-4d68-a126-6941d477a2e4</id>
+      <masked>false</masked>
+      <name>selectManager</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c863831-d926-486b-90fc-ac012a43f0c3</id>
       <masked>false</masked>
       <name>expectedResult</name>
    </variable>

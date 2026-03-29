@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Save</name>
+   <tag></tag>
+   <elementGuidId>74f94830-456a-48e2-93b9-2413065644d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ajaxModal']//button[@type='submit'][contains(@class,'btn-primary')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>fd3a1cc7-2a7d-4b9b-9edc-ce5245041c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774786064314</value>
+      <webElementGuid>7f1d78c8-84f2-4219-a75d-5dda6655cc1b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

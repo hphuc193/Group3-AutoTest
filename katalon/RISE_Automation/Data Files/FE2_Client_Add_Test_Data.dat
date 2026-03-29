@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>FE2_Client_Add_Test_Data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>29a754bc-4371-4679-94de-5f30cdad0926</dataFileGUID>
+   <dataSourceUrl>/Users/lap15528/Documents/UMT/Software_Testing/RISE_Automation_2201700083_2201700077_2201700053/katalon/RISE_Automation/Data Files/FE2_Client_Add_Data.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -12,9 +12,55 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>27d6dd33-ae8f-4353-969a-8aac5d5c93db</testSuiteGuid>
    <testCaseLink>
-      <guid>66219dea-135f-4932-aa39-a18c406dafaa</guid>
+      <guid>da8fe453-53d9-40c6-9661-89437dc4e979</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Client_Add</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0cb9c3a6-07a4-40b7-8175-8acc5de0a4de</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE2_Client_Add_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0cb9c3a6-07a4-40b7-8175-8acc5de0a4de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>afaf96ec-7ccd-411a-941e-9696840da3ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cb9c3a6-07a4-40b7-8175-8acc5de0a4de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>companyName</value>
+         <variableId>f3afaf52-791c-4ab9-8592-960d5416da2b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cb9c3a6-07a4-40b7-8175-8acc5de0a4de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>4b46a662-671b-43b4-9375-491e7795a054</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cb9c3a6-07a4-40b7-8175-8acc5de0a4de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>selectManager</value>
+         <variableId>f28093a4-1085-4d68-a126-6941d477a2e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0cb9c3a6-07a4-40b7-8175-8acc5de0a4de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>7c863831-d926-486b-90fc-ac012a43f0c3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>66219dea-135f-4932-aa39-a18c406dafaa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Filter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
