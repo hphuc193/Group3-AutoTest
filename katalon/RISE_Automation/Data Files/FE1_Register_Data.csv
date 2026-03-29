@@ -1,0 +1,5 @@
+scenario,firstName,lastName,company,email,password,retypePassword,needCaptcha,expectedResult
+TC_REGISTER_001 - Register with valid data,Test,User,TestCo_{timestamp},testuser_{timestamp}@test.com,Test@1234,Test@1234,yes,success
+TC_REGISTER_002 - Register with existing email,Test,User,TestCo,admin@demo.com,Test@1234,Test@1234,yes,error_duplicate
+TC_REGISTER_003 - Register with empty fields,,,,,,,no,error_required
+TC_REGISTER_004 - Register with mismatched passwords,Test,User,TestCo,test_{timestamp}@test.com,Test@1234,Test@5678,no,error_mismatch
