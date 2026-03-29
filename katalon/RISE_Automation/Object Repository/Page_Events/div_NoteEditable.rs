@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NoteEditable</name>
+   <tag></tag>
+   <elementGuidId>0b85b7e1-04ef-40e6-82ee-f556337fa03d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value> //div[@id='ajaxModal']//div[contains(@class,'note-editable')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>d3b4e01d-883c-413e-bbe3-8ab949fd19bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1774772778916</value>
+      <webElementGuid>a2fb49e7-2a4b-4189-b530-44b294f0ea9f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

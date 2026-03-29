@@ -1,0 +1,5 @@
+scenario,title,description,startDate,endDate,shareMember,expectedResult
+TC_EVENT_ADD_001 - Add event with valid data,TestEvent_{timestamp},Automated test event,,,no,success
+TC_EVENT_ADD_002 - Add event with empty title,,,,,,modal_stays_open
+TC_EVENT_ADD_003 - Add event with invalid dates,InvalidDateEvent_{timestamp},,30-03-2026,28-03-2026,no,modal_stays_open
+TC_EVENT_ADD_004 - Add event shared with member,SharedEvent_{timestamp},Shared event,,,yes,success

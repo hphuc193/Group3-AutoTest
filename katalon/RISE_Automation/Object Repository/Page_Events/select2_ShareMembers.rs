@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select2_ShareMembers</name>
+   <tag></tag>
+   <elementGuidId>b7caa1b5-9df2-4dec-aba4-6e3e818922b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#s2id_specific_specific_members_and_teams > ul.select2-choices</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='s2id_specific_specific_members_and_teams']/ul</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>243fc138-b2db-4877-9305-0c5ac882dd6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-choices</value>
+      <webElementGuid>125f67a2-c292-4e9f-b9ee-047b7311022d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;s2id_specific_specific_members_and_teams&quot;)/ul[@class=&quot;select2-choices&quot;]</value>
+      <webElementGuid>27d4f5f7-39f0-4322-abb9-133d7ddbf09e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='s2id_specific_specific_members_and_teams']/ul</value>
+      <webElementGuid>01fa4add-8e70-4708-ada7-5d9cb1dad2b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Specific members and teams'])[1]/following::ul[1]</value>
+      <webElementGuid>adff7af1-5e6d-45db-b84d-8dc9e182282d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All team members'])[1]/following::ul[1]</value>
+      <webElementGuid>049071f0-3e74-4a62-adbd-66582cdcdce9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat'])[1]/preceding::ul[1]</value>
+      <webElementGuid>2ba70464-bfdc-4b66-9f57-5cf757851658</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat every'])[1]/preceding::ul[1]</value>
+      <webElementGuid>70c14f7b-97d1-4071-860f-5aefd8d54474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/ul</value>
+      <webElementGuid>d15e40ff-16cd-4681-988b-cd2729c1528f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
