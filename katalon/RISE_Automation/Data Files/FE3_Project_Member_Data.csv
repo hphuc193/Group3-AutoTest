@@ -1,0 +1,3 @@
+scenario,action,expectedResult
+TC_PROJECT_MEMBER_001 - Add member to project,add_member,success
+TC_PROJECT_MEMBER_002 - Already-joined member not in dropdown,check_duplicate,not_in_dropdown
