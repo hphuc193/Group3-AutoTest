@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>FE3 - Project Delete Test Case (Data-driven)
-Covers: TC_PROJECT_DEL_001 to TC_PROJECT_DEL_002
-Delete project (confirm) and cancel delete.</description>
-   <name>TC_Project_Delete</name>
+   <description>FE4 - Event Delete Test Case (Data-driven)
+Covers: TC_EVENT_DEL_001 to TC_EVENT_DEL_002
+Delete event (confirm) and cancel delete.</description>
+   <name>TC_Event_Delete</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>tc-project-del-fe3-001</testCaseGuid>
+   <testCaseGuid>tc-event-del-fe4-001</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>173ef1db-e48a-4e00-84bf-47f07baea9eb</variableId>
+      <variableId>e1ca8f9b-98c0-49ce-aaaf-3b8a854b3092</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9829b451-db06-4514-9336-8708b81d35e8</variableId>
+      <variableId>eba25269-2cb9-44de-b837-b6af3a632715</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>28fd5265-d09c-4447-bbd1-6bd2bd074b72</variableId>
+      <variableId>05499296-afb7-4a50-88fd-d462ed71ba5c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>173ef1db-e48a-4e00-84bf-47f07baea9eb</id>
+      <id>e1ca8f9b-98c0-49ce-aaaf-3b8a854b3092</id>
       <masked>false</masked>
       <name>scenario</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9829b451-db06-4514-9336-8708b81d35e8</id>
+      <id>eba25269-2cb9-44de-b837-b6af3a632715</id>
       <masked>false</masked>
       <name>action</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>28fd5265-d09c-4447-bbd1-6bd2bd074b72</id>
+      <id>05499296-afb7-4a50-88fd-d462ed71ba5c</id>
       <masked>false</masked>
       <name>expectedResult</name>
    </variable>

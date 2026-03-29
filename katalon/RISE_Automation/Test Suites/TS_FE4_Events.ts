@@ -112,8 +112,42 @@
    <testCaseLink>
       <guid>adaf7402-db6e-4476-91ea-0075e29b1bd5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE4_Events/TC_Event_View</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa39a7c1-a565-48c4-a747-30922c717ec1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE4_Events/TC_Event_Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1977603f-9b09-4291-8eff-5b97886f7ca0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE4_Event_Delete_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1977603f-9b09-4291-8eff-5b97886f7ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>e1ca8f9b-98c0-49ce-aaaf-3b8a854b3092</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1977603f-9b09-4291-8eff-5b97886f7ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>action</value>
+         <variableId>eba25269-2cb9-44de-b837-b6af3a632715</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1977603f-9b09-4291-8eff-5b97886f7ca0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>05499296-afb7-4a50-88fd-d462ed71ba5c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

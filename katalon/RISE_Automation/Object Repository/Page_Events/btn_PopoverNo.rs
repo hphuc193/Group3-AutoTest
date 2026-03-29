@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_PopoverNo</name>
+   <tag></tag>
+   <elementGuidId>9c4bd6b9-ba1a-49a5-92df-c87ad4f57850</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-default.w100p.confirmation-cancel-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5f6e9a12-5261-4fb2-867f-089d17f9d8f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default w100p confirmation-cancel-button</value>
+      <webElementGuid>9fadd4cf-34f2-4f85-91b6-13ca3068d6e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No</value>
+      <webElementGuid>94ebd026-77b6-4f20-9d4a-935bef3b1707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;admin-view events-page color-F2F2F2 g-body modal-open destroy-popover&quot;]/div[@class=&quot;app-popover&quot;]/div[@class=&quot;app-popover-content-container&quot;]/div[@class=&quot;app-popover-body pt0&quot;]/div[@class=&quot;custom-popover-button-area mt15 clearfix row&quot;]/div[@class=&quot;col-md-6 pl5&quot;]/button[@class=&quot;btn btn-default w100p confirmation-cancel-button&quot;]</value>
+      <webElementGuid>c357fbd6-738b-48af-9ac8-6f0cac9f0ae9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[1]</value>
+      <webElementGuid>d61015ad-a76f-4fe9-a595-937f88a42018</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure?'])[1]/following::button[2]</value>
+      <webElementGuid>37afa31c-7eec-4992-8b2f-1360b14484a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No']/parent::*</value>
+      <webElementGuid>a34f0f5a-ada2-4775-a14e-8a0364d065af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/button</value>
+      <webElementGuid>8445b94f-b368-4d34-8f67-3702aee0d81e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' No' or . = ' No')]</value>
+      <webElementGuid>da54edbb-11b5-484c-b56d-4efca2ba2842</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
