@@ -12,4 +12,4 @@ import helpers.AuthHelper
 AuthHelper.loginAndSaveCookies('admin')
 
 // Save client cookies
-AuthHelper.loginAndSaveCookies('client')
+//AuthHelper.loginAndSaveCookies('client')

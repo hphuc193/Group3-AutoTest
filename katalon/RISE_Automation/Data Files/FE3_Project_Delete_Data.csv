@@ -1,0 +1,3 @@
+scenario,action,expectedResult
+TC_PROJECT_DEL_001 - Delete project successfully,confirm,deleted
+TC_PROJECT_DEL_002 - Cancel delete keeps project,cancel,still_exists

@@ -60,7 +60,7 @@
    <testCaseLink>
       <guid>fe4bba97-859b-48e8-a306-3dcb3cd82be1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -95,6 +95,40 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>58760926-abf7-4dc2-91d2-1fbab5101620</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cddbd714-5dee-44cd-847a-4b674b47ef9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE3_Projects/TC_Project_Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>79f11abd-5a6f-4018-937c-d54e8a03942e</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/FE3_Project_Delete_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>79f11abd-5a6f-4018-937c-d54e8a03942e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>173ef1db-e48a-4e00-84bf-47f07baea9eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79f11abd-5a6f-4018-937c-d54e8a03942e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>action</value>
+         <variableId>9829b451-db06-4514-9336-8708b81d35e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79f11abd-5a6f-4018-937c-d54e8a03942e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>28fd5265-d09c-4447-bbd1-6bd2bd074b72</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
