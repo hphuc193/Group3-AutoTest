@@ -100,7 +100,7 @@
    <testCaseLink>
       <guid>a2a5473c-476d-4a31-a0fb-2223e8328329</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -129,6 +129,40 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>60862cb7-8305-4374-8e51-e9932f2c76b1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>536c8f33-76d1-4d1c-abb0-069c3f7e1c32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Client_Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cfc54b7d-8174-4240-b61b-38b28c6912ca</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE2_Client_Search_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>cfc54b7d-8174-4240-b61b-38b28c6912ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>2959ad99-24cd-452e-8883-265f7cc0cd6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cfc54b7d-8174-4240-b61b-38b28c6912ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>keyword</value>
+         <variableId>22e4eb68-2435-4e71-8c12-3b1b8acdc3d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cfc54b7d-8174-4240-b61b-38b28c6912ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>d4d86098-01d6-4fc1-9cfb-81e8d4a19b61</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

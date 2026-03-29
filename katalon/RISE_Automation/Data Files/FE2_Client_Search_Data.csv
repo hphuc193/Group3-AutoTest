@@ -1,0 +1,3 @@
+scenario,keyword,expectedResult
+TC_CLIENT_SEARCH_001 - Search client by name,Birdie Erdman,has_results
+TC_CLIENT_SEARCH_002 - Search with non-existing keyword,xyzkhongtonqui123,no_results
