@@ -39,12 +39,14 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Clients/th_ID'))
-WebUI.delay(1)
-boolean isDesc = WebUI.verifyElementPresent(findTestObject('Page_Clients/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
-if (!isDesc) {
+boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Clients/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
+if (!alreadyDesc) {
 	WebUI.click(findTestObject('Page_Clients/th_ID'))
 	WebUI.delay(1)
+	if (!WebUI.verifyElementPresent(findTestObject('Page_Clients/th_ID_Desc'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('Page_Clients/th_ID'))
+		WebUI.delay(1)
+	}
 }
 
 // === Step 3: Click delete on first row ===

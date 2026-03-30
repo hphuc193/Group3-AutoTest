@@ -49,13 +49,15 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/projects/all_projects')
 WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
-// === Step 3: Sort by ID descending ===
-WebUI.click(findTestObject('Page_Projects/th_ID'))
-WebUI.delay(1)
-boolean isDesc = WebUI.verifyElementPresent(findTestObject('Page_Projects/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
-if (!isDesc) {
+// === Step 3: Sort by ID desc (only if not already sorted) ===
+boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Projects/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
+if (!alreadyDesc) {
 	WebUI.click(findTestObject('Page_Projects/th_ID'))
 	WebUI.delay(1)
+	if (!WebUI.verifyElementPresent(findTestObject('Page_Projects/th_ID_Desc'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('Page_Projects/th_ID'))
+		WebUI.delay(1)
+	}
 }
 
 // === Step 4: Click delete on first row (our newly created project) ===

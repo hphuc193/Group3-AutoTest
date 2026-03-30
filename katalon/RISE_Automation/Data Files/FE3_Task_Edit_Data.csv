@@ -1,0 +1,4 @@
+scenario,newTitle,changeStatus,expectedResult
+TC_TASK_EDIT_001 - Edit task title,EditedTask_{timestamp},no,success
+TC_TASK_EDIT_002 - Edit task with empty title,,no,modal_stays_open
+TC_TASK_EDIT_003 - Change task status to Done,,yes,status_done
