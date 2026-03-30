@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE2 - Contact Add Test Case (Data-driven)
+Covers: TC_CONTACT_ADD_001 to TC_CONTACT_ADD_002
+Add contact with valid/empty data within a client detail page.</description>
+   <name>TC_Contact_Add</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-contact-add-fe2-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95bd7449-4934-4bad-91ed-7b9a5550c89e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93e806d6-3196-486d-843c-47e514bbcb29</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a946c296-585c-47ce-9770-9cee01f99cb3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcb3b0f0-d832-4f93-8a70-1e1fe7b6d9ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88956ca3-bd23-4fc1-a1bb-b7d8705ef9c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>95bd7449-4934-4bad-91ed-7b9a5550c89e</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93e806d6-3196-486d-843c-47e514bbcb29</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a946c296-585c-47ce-9770-9cee01f99cb3</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcb3b0f0-d832-4f93-8a70-1e1fe7b6d9ca</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88956ca3-bd23-4fc1-a1bb-b7d8705ef9c5</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

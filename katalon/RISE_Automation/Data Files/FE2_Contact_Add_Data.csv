@@ -1,0 +1,3 @@
+scenario,firstName,lastName,email,expectedResult
+TC_CONTACT_ADD_001 - Add contact with valid data,Contact,Test_{timestamp},contact_{timestamp}@test.com,success
+TC_CONTACT_ADD_002 - Add contact with empty fields,,,, modal_stays_open
