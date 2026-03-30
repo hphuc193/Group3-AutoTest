@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>FE2 - Contact Add Test Case (Data-driven)
-Covers: TC_CONTACT_ADD_001 to TC_CONTACT_ADD_002
-Add contact with valid/empty data within a client detail page.</description>
-   <name>TC_Contact_Add</name>
+   <description>FE2 - Contact Edit Test Case (Data-driven)
+Covers: TC_CONTACT_EDIT_001 to TC_CONTACT_EDIT_002
+Edit contact name, clear email.</description>
+   <name>TC_Contact_Edit</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>tc-contact-add-fe2-001</testCaseGuid>
+   <testCaseGuid>tc-contact-edit-fe2-001</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>95bd7449-4934-4bad-91ed-7b9a5550c89e</id>
+      <id>a863510f-a7a2-496c-9616-5300f2e4e1cd</id>
       <masked>false</masked>
       <name>scenario</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>93e806d6-3196-486d-843c-47e514bbcb29</id>
+      <id>ab4baa96-979b-451b-86a7-173b88ca282d</id>
       <masked>false</masked>
-      <name>firstName</name>
+      <name>newFirstName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a946c296-585c-47ce-9770-9cee01f99cb3</id>
+      <id>c9d66111-9443-4523-bf9f-d82f3b56a356</id>
       <masked>false</masked>
-      <name>lastName</name>
+      <name>newLastName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fcb3b0f0-d832-4f93-8a70-1e1fe7b6d9ca</id>
+      <id>dddf44e8-83aa-4d4c-9744-86362796e54e</id>
       <masked>false</masked>
-      <name>email</name>
+      <name>clearEmail</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>88956ca3-bd23-4fc1-a1bb-b7d8705ef9c5</id>
+      <id>35921cf4-3ad8-416b-bea8-133b78e63b72</id>
       <masked>false</masked>
       <name>expectedResult</name>
    </variable>

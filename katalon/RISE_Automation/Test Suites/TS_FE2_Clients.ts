@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>da8fe453-53d9-40c6-9661-89437dc4e979</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -60,7 +60,7 @@
    <testCaseLink>
       <guid>90f090c1-8c5e-4355-9070-0e62bc11f403</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -100,7 +100,7 @@
    <testCaseLink>
       <guid>a2a5473c-476d-4a31-a0fb-2223e8328329</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>536c8f33-76d1-4d1c-abb0-069c3f7e1c32</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -168,7 +168,7 @@
    <testCaseLink>
       <guid>c665b84a-b76c-4064-8e7e-c5c70de88ba1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_View</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -219,9 +219,55 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>4cd7aab8-96e6-4717-ae41-1a11196681cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE2_Clients/TC_Contact_Edit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c79c7e0c-19b1-4fc5-b370-b5c204e8a32f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE2_Contact_Edit_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c79c7e0c-19b1-4fc5-b370-b5c204e8a32f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>a863510f-a7a2-496c-9616-5300f2e4e1cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c79c7e0c-19b1-4fc5-b370-b5c204e8a32f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newFirstName</value>
+         <variableId>ab4baa96-979b-451b-86a7-173b88ca282d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c79c7e0c-19b1-4fc5-b370-b5c204e8a32f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newLastName</value>
+         <variableId>c9d66111-9443-4523-bf9f-d82f3b56a356</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c79c7e0c-19b1-4fc5-b370-b5c204e8a32f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>clearEmail</value>
+         <variableId>dddf44e8-83aa-4d4c-9744-86362796e54e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c79c7e0c-19b1-4fc5-b370-b5c204e8a32f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>35921cf4-3ad8-416b-bea8-133b78e63b72</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>66219dea-135f-4932-aa39-a18c406dafaa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE2_Clients/TC_Client_Filter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

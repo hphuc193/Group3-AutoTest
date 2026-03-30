@@ -1,0 +1,3 @@
+scenario,newFirstName,newLastName,clearEmail,expectedResult
+TC_CONTACT_EDIT_001 - Edit contact info,Updated,Contact_{timestamp},no,success
+TC_CONTACT_EDIT_002 - Edit contact clear email,,,yes,error_or_alert
