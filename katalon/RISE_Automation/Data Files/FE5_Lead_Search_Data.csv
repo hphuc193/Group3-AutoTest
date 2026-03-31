@@ -1,0 +1,4 @@
+scenario,keyword,expectedResult
+TC_LEAD_SEARCH_001 - Search lead by name,Marco Quigley,has_results
+TC_LEAD_SEARCH_002 - Search with non-existing keyword,xyzkhongtonqui123,no_results
+TC_LEAD_SEARCH_003 - Search lead by source,Smitham,has_results
