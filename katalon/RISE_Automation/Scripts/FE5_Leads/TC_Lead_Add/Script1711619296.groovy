@@ -21,7 +21,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Leads via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Leads'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Click "Add lead" button
 WebUI.click(findTestObject('Page_Leads/btn_AddLead'))
@@ -63,7 +63,7 @@ if (selectManager == 'yes') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Leads/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -71,12 +71,12 @@ def driver = DriverFactory.getWebDriver()
 if (expectedResult == 'success') {
 	// Navigate back to leads list, search for the new lead
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/leads')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(actualName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(actualName) : "Lead '${actualName}' not found in leads list"

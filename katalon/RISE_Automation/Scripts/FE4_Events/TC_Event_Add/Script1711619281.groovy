@@ -19,7 +19,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Events via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Events'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Wait for calendar to render
 WebUI.waitForElementPresent(findTestObject('Page_Events/calendar_Grid'), GlobalVariable.timeout)
@@ -78,13 +78,13 @@ if (shareMember != '' && shareMember != 'no') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Events/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // Verify expected result
 if (expectedResult == 'success') {
 	// Reload calendar and verify event appears
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/events')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(actualTitle) : "Event '${actualTitle}' not found on calendar"

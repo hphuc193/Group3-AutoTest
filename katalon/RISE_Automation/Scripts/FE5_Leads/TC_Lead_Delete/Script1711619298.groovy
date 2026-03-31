@@ -20,7 +20,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Leads via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Leads'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // === Step 1: Add a lead first ===
 WebUI.click(findTestObject('Page_Leads/btn_AddLead'))
@@ -30,11 +30,11 @@ WebUI.waitForElementPresent(findTestObject('Page_Leads/input_CompanyName'), Glob
 String leadName = "DeleteLead_${System.currentTimeMillis()}"
 WebUI.setText(findTestObject('Page_Leads/input_CompanyName'), leadName)
 WebUI.click(findTestObject('Page_Leads/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 2: Go back to leads list, sort Created at desc (only if needed) ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/leads')
-WebUI.delay(2)
+WebUI.delay(1)
 
 boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Leads/th_CreatedAt_Desc'), 3, FailureHandling.OPTIONAL)
 if (!alreadyDesc) {
@@ -56,7 +56,7 @@ def driver = DriverFactory.getWebDriver()
 // === Step 4: Confirm or Cancel ===
 if (action == 'confirm') {
 	WebUI.click(findTestObject('Page_Leads/btn_ConfirmDelete'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Verify success alert
 	WebUI.verifyElementPresent(findTestObject('Page_Leads/alert_Success'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
@@ -64,16 +64,16 @@ if (action == 'confirm') {
 
 } else if (action == 'cancel') {
 	WebUI.click(findTestObject('Page_Leads/btn_CancelDelete'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Reload and search to verify lead still exists
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/leads')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(leadName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(leadName) : "Lead '${leadName}' not found after cancel - it was deleted!"

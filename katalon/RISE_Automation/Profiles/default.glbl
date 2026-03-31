@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Default timeout in seconds</description>
-      <initValue>10</initValue>
+      <initValue>5</initValue>
       <name>timeout</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

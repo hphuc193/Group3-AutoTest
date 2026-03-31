@@ -19,7 +19,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Clients via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Clients'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
 WebUI.waitForElementPresent(findTestObject('Page_Clients/table_Clients'), GlobalVariable.timeout)
 
@@ -27,7 +27,7 @@ WebUI.waitForElementPresent(findTestObject('Page_Clients/table_Clients'), Global
 WebUI.click(findTestObject('Page_Clients/input_Search'))
 WebUI.clearText(findTestObject('Page_Clients/input_Search'))
 WebUI.setText(findTestObject('Page_Clients/input_Search'), keyword)
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify result
 def driver = DriverFactory.getWebDriver()

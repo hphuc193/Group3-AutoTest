@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1ca16454-4b96-4434-8b34-268fdfdc266d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -60,7 +60,7 @@
    <testCaseLink>
       <guid>fe4bba97-859b-48e8-a306-3dcb3cd82be1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -106,7 +106,7 @@
          <combinationType>ONE</combinationType>
          <id>79f11abd-5a6f-4018-937c-d54e8a03942e</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/FE3_Project_Delete_Test_Data</testDataId>
@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>b7c42fcc-52cd-4816-b73e-6500a1cedc60</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -168,14 +168,14 @@
    <testCaseLink>
       <guid>0a89f329-edaf-4501-8756-6c0f69904c6d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_View</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c468cf61-3355-45ec-8f8f-5260a2288dcf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Project_Member</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -209,7 +209,7 @@
    <testCaseLink>
       <guid>caa6c81b-516d-42a3-901b-542fe6afdaab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Task_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -249,7 +249,7 @@
    <testCaseLink>
       <guid>492d1ca1-b397-4863-87ef-99f6f5e5a398</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE3_Projects/TC_Task_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

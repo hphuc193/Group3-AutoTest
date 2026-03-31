@@ -21,7 +21,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Clients via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Clients'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
 WebUI.waitForElementPresent(findTestObject('Page_Clients/table_Clients'), GlobalVariable.timeout)
 
@@ -33,13 +33,13 @@ WebUI.waitForElementPresent(findTestObject('Page_Clients/input_CompanyName'), Gl
 String originalName = "EditClient_${ts}"
 WebUI.setText(findTestObject('Page_Clients/input_CompanyName'), originalName)
 WebUI.click(findTestObject('Page_Clients/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 2: Go back to client list, sort by ID desc ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Sort by ID desc (only if not already sorted)
 boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Clients/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
@@ -76,7 +76,7 @@ if (newAddress != '') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Clients/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 5: Verify result ===
 def driver = DriverFactory.getWebDriver()
@@ -84,14 +84,14 @@ def driver = DriverFactory.getWebDriver()
 if (expectedResult == 'success') {
 	// Search for updated client
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-	WebUI.delay(2)
+	WebUI.delay(1)
 	WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(actualName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String tableText = driver.findElement(org.openqa.selenium.By.id('client-table')).getText()
 	assert tableText.contains(actualName) : "Updated client '${actualName}' not found"

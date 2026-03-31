@@ -19,7 +19,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Events via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Events'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Events/calendar_Grid'), GlobalVariable.timeout)
 
 // Click "Manage labels" button
@@ -44,7 +44,7 @@ if (labelName != '') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Events/btn_SaveLabel'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify expected result
 if (expectedResult == 'success') {

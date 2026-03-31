@@ -20,14 +20,14 @@ AuthHelper.loadAuth('admin')
 // Navigate to Leads via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Leads'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 
 if (action == 'view') {
 	// === TC_LEAD_VIEW_001: Click first lead, verify detail page ===
 	WebUI.click(findTestObject('Page_Leads/link_FirstLeadName'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Verify URL contains leads/view
 	String currentUrl = WebUI.getUrl()
@@ -55,36 +55,36 @@ if (action == 'view') {
 	String leadName = "ConvertLead_${System.currentTimeMillis()}"
 	WebUI.setText(findTestObject('Page_Leads/input_CompanyName'), leadName)
 	WebUI.click(findTestObject('Page_Leads/btn_Save'))
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	// Go back to leads list and find the new lead
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/leads')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Search for the lead
 	WebUI.click(findTestObject('Page_Leads/input_Search'))
 	WebUI.clearText(findTestObject('Page_Leads/input_Search'))
 	WebUI.setText(findTestObject('Page_Leads/input_Search'), leadName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Click the lead name to open detail
 	WebUI.click(findTestObject('Page_Leads/link_FirstLeadName'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Click "Convert to client"
 	WebUI.click(findTestObject('Page_Leads/btn_ConvertToClient'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Click Next if present (multi-step modal), otherwise Save directly
 	boolean hasNext = WebUI.verifyElementPresent(findTestObject('Page_Leads/btn_NextConvert'), 3, FailureHandling.OPTIONAL)
 	if (hasNext) {
 		WebUI.click(findTestObject('Page_Leads/btn_NextConvert'))
-		WebUI.delay(2)
+		WebUI.delay(1)
 	}
 
 	// Click Save to finalize conversion
 	WebUI.click(findTestObject('Page_Leads/btn_SaveConvert'))
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	// Verify redirected to client view page
 	String currentUrl = WebUI.getUrl()

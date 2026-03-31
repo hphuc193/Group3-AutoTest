@@ -19,7 +19,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 WebUI.waitForElementPresent(findTestObject('Page_Login/input_Email'), GlobalVariable.timeout)
 WebUI.click(findTestObject('Page_Login/link_SignUp'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Register/input_FirstName'), GlobalVariable.timeout)
 
 // Fill form fields (skip empty ones for empty-fields test)
@@ -56,7 +56,7 @@ if (needCaptcha == 'yes') {
 
 // Click Sign Up button
 WebUI.click(findTestObject('Page_Register/btn_SignUp'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // Verify expected result
 if (expectedResult == 'success') {

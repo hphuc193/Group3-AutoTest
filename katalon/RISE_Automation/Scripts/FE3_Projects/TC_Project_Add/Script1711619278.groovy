@@ -19,7 +19,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to dashboard then Projects via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Projects'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Wait for project table to load
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
@@ -60,13 +60,13 @@ if (startDate != '') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Projects/btn_Save'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify expected result
 if (expectedResult == 'success') {
 	// Navigate back to project list and verify project exists
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/projects/all_projects')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Search for the project by title
 	def driver3 = DriverFactory.getWebDriver()

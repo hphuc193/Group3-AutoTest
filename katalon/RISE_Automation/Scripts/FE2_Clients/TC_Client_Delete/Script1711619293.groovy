@@ -19,7 +19,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Clients via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Clients'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
 WebUI.waitForElementPresent(findTestObject('Page_Clients/table_Clients'), GlobalVariable.timeout)
 
@@ -31,13 +31,13 @@ WebUI.waitForElementPresent(findTestObject('Page_Clients/input_CompanyName'), Gl
 String clientName = "DeleteClient_${System.currentTimeMillis()}"
 WebUI.setText(findTestObject('Page_Clients/input_CompanyName'), clientName)
 WebUI.click(findTestObject('Page_Clients/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 2: Go back to client list, sort by ID desc ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Clients/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
 if (!alreadyDesc) {
@@ -58,7 +58,7 @@ def driver = DriverFactory.getWebDriver()
 // === Step 4: Confirm or Cancel ===
 if (action == 'confirm') {
 	WebUI.click(findTestObject('Page_Clients/btn_ConfirmDelete'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Verify success alert
 	WebUI.verifyElementPresent(findTestObject('Page_Clients/alert_Success'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
@@ -66,18 +66,18 @@ if (action == 'confirm') {
 
 } else if (action == 'cancel') {
 	WebUI.click(findTestObject('Page_Clients/btn_CancelDelete'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Reload and search for client to verify it still exists
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-	WebUI.delay(2)
+	WebUI.delay(1)
 	WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(clientName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(clientName) : "Client '${clientName}' not found after cancel - it was deleted!"

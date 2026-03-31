@@ -19,12 +19,12 @@ AuthHelper.loadAuth('admin')
 // Navigate to Projects via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Projects'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // Click first project title to go to detail page
 WebUI.click(findTestObject('Page_Projects/link_FirstProjectTitle'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -35,7 +35,7 @@ if (action == 'add_member') {
 	boolean hasDeleteBtn = WebUI.verifyElementPresent(findTestObject('Page_Projects/btn_DeleteMember'), 3, FailureHandling.OPTIONAL)
 	if (hasDeleteBtn) {
 		WebUI.click(findTestObject('Page_Projects/btn_DeleteMember'))
-		WebUI.delay(2)
+		WebUI.delay(1)
 	}
 
 	// Click "Add member" button
@@ -54,7 +54,7 @@ if (action == 'add_member') {
 
 	// Click Save
 	WebUI.click(findTestObject('Page_Projects/btn_Save'))
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	// Verify member appears in project members table
 	String membersTableText = driver.findElement(org.openqa.selenium.By.id('project-member-table')).getText()
@@ -67,7 +67,7 @@ if (action == 'add_member') {
 	boolean hasDeleteBtn2 = WebUI.verifyElementPresent(findTestObject('Page_Projects/btn_DeleteMember'), 3, FailureHandling.OPTIONAL)
 	if (hasDeleteBtn2) {
 		WebUI.click(findTestObject('Page_Projects/btn_DeleteMember'))
-		WebUI.delay(2)
+		WebUI.delay(1)
 	}
 
 	// Step 1: Add a member first
@@ -84,7 +84,7 @@ if (action == 'add_member') {
 	WebUI.delay(1)
 
 	WebUI.click(findTestObject('Page_Projects/btn_Save'))
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	// Step 2: Try to add the same member again — open Add member modal
 	WebUI.click(findTestObject('Page_Projects/btn_AddMember'))

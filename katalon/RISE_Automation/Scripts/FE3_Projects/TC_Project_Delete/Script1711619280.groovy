@@ -20,7 +20,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Projects via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Projects'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // === Step 1: Add a new project first (so we have something to delete) ===
@@ -42,11 +42,11 @@ WebUI.click(findTestObject('Page_Projects/select2_ClientResult'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Projects/btn_Save'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // === Step 2: Go back to project list ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/projects/all_projects')
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // === Step 3: Sort by ID desc (only if not already sorted) ===
@@ -67,7 +67,7 @@ WebUI.waitForElementPresent(findTestObject('Page_Projects/modal_Confirmation'), 
 // === Step 5: Confirm or Cancel ===
 if (action == 'confirm') {
 	WebUI.click(findTestObject('Page_Projects/btn_ConfirmDelete'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Verify: success alert with "deleted"
 	WebUI.verifyElementPresent(findTestObject('Page_Projects/alert_Success'), GlobalVariable.timeout)
@@ -75,9 +75,18 @@ if (action == 'confirm') {
 
 } else if (action == 'cancel') {
 	WebUI.click(findTestObject('Page_Projects/btn_CancelDelete'))
+	WebUI.delay(1)
+
+	// Reload and search for project to verify it still exists
+	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/projects/all_projects')
+	WebUI.delay(1)
+	WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
+
+	def searchBox = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
+	searchBox.clear()
+	searchBox.sendKeys(projectTitle)
 	WebUI.delay(2)
 
-	// Verify: project still exists on page after cancel
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(projectTitle) : "Project '${projectTitle}' not found after cancel - it was deleted!"
 	WebUI.comment("PASSED: ${scenario} - Project '${projectTitle}' still exists after cancel")

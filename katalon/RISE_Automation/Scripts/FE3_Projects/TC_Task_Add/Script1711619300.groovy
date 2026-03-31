@@ -21,7 +21,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Tasks via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Tasks'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Tasks/table_Tasks'), GlobalVariable.timeout)
 
 // Click "Add task" button
@@ -61,7 +61,7 @@ if (selectAssignee == 'yes') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Tasks/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -69,12 +69,12 @@ def driver = DriverFactory.getWebDriver()
 if (expectedResult == 'success') {
 	// Navigate back to tasks list and search
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/tasks/all_tasks')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(actualTitle)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(actualTitle) : "Task '${actualTitle}' not found in tasks list"
@@ -89,12 +89,12 @@ if (expectedResult == 'success') {
 } else if (expectedResult == 'no_record') {
 	// Task created but with no assignee — won't show in "My Tasks" search
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/tasks/all_tasks')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput2 = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput2.clear()
 	searchInput2.sendKeys(actualTitle)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String tbodyText = driver.findElement(org.openqa.selenium.By.cssSelector('table#task-table tbody')).getText()
 	boolean noRecord = tbodyText.contains('No record') || tbodyText.contains('No matching') || tbodyText.contains('No data')

@@ -19,14 +19,14 @@ AuthHelper.loadAuth('admin')
 // Navigate to Projects via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Projects'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // Type keyword into DataTable search box
 WebUI.click(findTestObject('Page_Projects/input_Search'))
 WebUI.clearText(findTestObject('Page_Projects/input_Search'))
 WebUI.setText(findTestObject('Page_Projects/input_Search'), keyword)
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify result
 def driver = DriverFactory.getWebDriver()

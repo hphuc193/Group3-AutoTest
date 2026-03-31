@@ -22,7 +22,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Clients via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Clients'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Click Clients list tab
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
@@ -41,7 +41,7 @@ if (!alreadyDesc) {
 
 // Click first client name to go to client detail page
 WebUI.click(findTestObject('Page_Clients/link_FirstClientName'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Click "Add contact" button
 WebUI.click(findTestObject('Page_Contacts/btn_AddContact'))
@@ -69,7 +69,7 @@ if (email != '') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Contacts/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -77,7 +77,7 @@ def driver = DriverFactory.getWebDriver()
 if (expectedResult == 'success') {
 	// Reload client detail page and check contact appears
 	driver.navigate().refresh()
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(actualLastName) : "Contact '${actualLastName}' not found on client detail page"

@@ -19,13 +19,13 @@ AuthHelper.loadAuth('admin')
 // Navigate to Leads via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Leads'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Type keyword into search box
 WebUI.click(findTestObject('Page_Leads/input_Search'))
 WebUI.clearText(findTestObject('Page_Leads/input_Search'))
 WebUI.setText(findTestObject('Page_Leads/input_Search'), keyword)
-WebUI.delay(2)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 

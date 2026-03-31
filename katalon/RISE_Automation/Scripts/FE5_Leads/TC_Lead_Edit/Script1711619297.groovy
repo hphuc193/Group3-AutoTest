@@ -21,7 +21,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Leads via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Leads'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // === Step 1: Add a lead first ===
 WebUI.click(findTestObject('Page_Leads/btn_AddLead'))
@@ -31,11 +31,11 @@ WebUI.waitForElementPresent(findTestObject('Page_Leads/input_CompanyName'), Glob
 String originalName = "EditLead_${ts}"
 WebUI.setText(findTestObject('Page_Leads/input_CompanyName'), originalName)
 WebUI.click(findTestObject('Page_Leads/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 2: Go back to leads list, sort Created at desc (only if not already desc) ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/leads')
-WebUI.delay(2)
+WebUI.delay(1)
 
 boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Leads/th_CreatedAt_Desc'), 3, FailureHandling.OPTIONAL)
 if (!alreadyDesc) {
@@ -79,14 +79,14 @@ if (changeStatus == 'yes') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Leads/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 5: Verify result ===
 def driver = DriverFactory.getWebDriver()
 
 if (expectedResult == 'success') {
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/leads')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
@@ -94,7 +94,7 @@ if (expectedResult == 'success') {
 	// Search by new name or original name (for status change)
 	String searchName = (newName != '') ? actualName : originalName
 	searchInput.sendKeys(searchName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(searchName) : "Lead '${searchName}' not found after edit"

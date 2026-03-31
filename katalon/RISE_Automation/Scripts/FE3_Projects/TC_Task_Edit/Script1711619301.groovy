@@ -21,7 +21,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Tasks via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Tasks'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Tasks/table_Tasks'), GlobalVariable.timeout)
 
 // === Step 1: Add a task first ===
@@ -46,11 +46,11 @@ if (assignOptions.size() > 1) {
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Tasks/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 2: Go back to tasks list, sort by ID desc ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/tasks/all_tasks')
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Tasks/table_Tasks'), GlobalVariable.timeout)
 
 boolean alreadyDesc = WebUI.verifyElementPresent(findTestObject('Page_Tasks/th_ID_Desc'), 3, FailureHandling.OPTIONAL)
@@ -93,17 +93,17 @@ if (changeStatus == 'yes') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Tasks/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 5: Verify result ===
 if (expectedResult == 'success') {
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/tasks/all_tasks')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(actualTitle)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(actualTitle) : "Task '${actualTitle}' not found after edit"
@@ -118,17 +118,17 @@ if (expectedResult == 'success') {
 } else if (expectedResult == 'status_done') {
 	// Navigate back to tasks list
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/tasks/all_tasks')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Click "Recently Updated" to show all tasks including Done
 	WebUI.click(findTestObject('Page_Tasks/btn_RecentlyUpdated'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Search for original title
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(originalTitle)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Check Status column shows "Done"
 	String firstRowText = driver.findElement(org.openqa.selenium.By.cssSelector('table#task-table tbody tr:first-child')).getText()

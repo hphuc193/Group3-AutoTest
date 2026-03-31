@@ -33,7 +33,7 @@ JOptionPane.showMessageDialog(
 
 // Click Sign In
 WebUI.click(findTestObject('Page_Login/btn_SignIn'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify login succeeded
 String currentUrl = WebUI.getUrl()
@@ -46,7 +46,7 @@ WebUI.delay(1)
 
 // Step 3: Click Sign Out
 WebUI.click(findTestObject('Page_Dashboard/link_SignOut'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Step 4: Verify redirect to login page
 currentUrl = WebUI.getUrl()
@@ -55,7 +55,7 @@ WebUI.comment("PASSED: Redirected to login page after logout")
 
 // Step 5: Verify can't access dashboard without re-authenticating
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/dashboard')
-WebUI.delay(2)
+WebUI.delay(1)
 currentUrl = WebUI.getUrl()
 assert currentUrl.contains('signin') : "Expected redirect to signin when accessing dashboard, but got: ${currentUrl}"
 WebUI.comment("PASSED: Cannot access dashboard after logout - TC_LOGOUT_001 complete")

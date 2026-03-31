@@ -42,7 +42,7 @@ if (expectedResult != 'stay_on_login') {
 
 // Click Sign In
 WebUI.click(findTestObject('Page_Login/btn_SignIn'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify expected result
 if (expectedResult == 'dashboard') {

@@ -19,12 +19,12 @@ AuthHelper.loadAuth('admin')
 // Navigate to Projects via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Projects'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // Click on first project title link
 WebUI.click(findTestObject('Page_Projects/link_FirstProjectTitle'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Verify URL contains projects/view
 def driver = DriverFactory.getWebDriver()

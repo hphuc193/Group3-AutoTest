@@ -21,7 +21,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Clients via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Clients'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Click Clients list tab
 WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
@@ -56,7 +56,7 @@ if (selectManager == 'yes') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Clients/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -64,15 +64,15 @@ def driver = DriverFactory.getWebDriver()
 if (expectedResult == 'success') {
 	// Navigate back to clients list, search for the new client
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-	WebUI.delay(2)
+	WebUI.delay(1)
 	WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Search for the client
 	def searchInput = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput.clear()
 	searchInput.sendKeys(actualName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String tableText = driver.findElement(org.openqa.selenium.By.id('client-table')).getText()
 	assert tableText.contains(actualName) : "Client '${actualName}' not found in table"
@@ -88,9 +88,9 @@ if (expectedResult == 'success') {
 } else if (expectedResult == 'duplicate') {
 	// First add should succeed, then add same name again
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-	WebUI.delay(2)
+	WebUI.delay(1)
 	WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Add same name again
 	WebUI.click(findTestObject('Page_Clients/btn_AddClient'))
@@ -99,18 +99,18 @@ if (expectedResult == 'success') {
 	WebUI.clearText(findTestObject('Page_Clients/input_CompanyName'))
 	WebUI.setText(findTestObject('Page_Clients/input_CompanyName'), actualName)
 	WebUI.click(findTestObject('Page_Clients/btn_Save'))
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	// System allows duplicates — verify both exist by searching
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/clients')
-	WebUI.delay(2)
+	WebUI.delay(1)
 	WebUI.click(findTestObject('Page_Clients/tab_ClientsList'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def searchInput2 = driver.findElement(org.openqa.selenium.By.cssSelector('input[type="search"]'))
 	searchInput2.clear()
 	searchInput2.sendKeys(actualName)
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String tableText2 = driver.findElement(org.openqa.selenium.By.id('client-table')).getText()
 	assert tableText2.contains(actualName) : "Duplicate client '${actualName}' not found"

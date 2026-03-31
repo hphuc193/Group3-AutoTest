@@ -20,7 +20,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Projects via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Projects'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // === Step 1: Add a new project first ===
@@ -43,11 +43,11 @@ WebUI.delay(1)
 
 // Save new project
 WebUI.click(findTestObject('Page_Projects/btn_Save'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // === Step 2: Go back to project list ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/projects/all_projects')
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Projects/table_Projects'), GlobalVariable.timeout)
 
 // === Step 3: Sort by ID desc (only if not already sorted) ===
@@ -84,13 +84,13 @@ if (deadline != '') {
 
 // Click Save
 WebUI.click(findTestObject('Page_Projects/btn_Save'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // === Step 5: Verify result ===
 if (expectedResult == 'success') {
 	// Navigate back and verify updated title exists
 	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/projects/all_projects')
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	String pageSource = driver.getPageSource()
 	assert pageSource.contains(actualTitle) : "Updated project '${actualTitle}' not found in project list"

@@ -20,7 +20,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Events via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Events'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Events/calendar_Grid'), GlobalVariable.timeout)
 
 // Click the first event on calendar
@@ -60,13 +60,13 @@ WebUI.setText(findTestObject('Page_Events/input_ReminderTime'), '09:00 AM')
 
 // Click "Add" button in reminder section
 WebUI.click(findTestObject('Page_Events/btn_AddReminder'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // Verify result
 if (expectedResult == 'success') {
 	// Close the modal
 	WebUI.click(findTestObject('Page_Events/btn_CloseModal'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Click the same event again to reopen
 	def eventLink2 = driver.findElement(org.openqa.selenium.By.xpath("//a[contains(@class,'fc-event')]"))
@@ -101,11 +101,11 @@ if (expectedResult == 'success') {
 	WebUI.setText(findTestObject('Page_Events/input_ReminderTime'), '10:00 AM')
 
 	WebUI.click(findTestObject('Page_Events/btn_AddReminder'))
-	WebUI.delay(3)
+	WebUI.delay(1)
 
 	// Close modal, reopen event, verify both reminders persist
 	WebUI.click(findTestObject('Page_Events/btn_CloseModal'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	def eventLink3 = driver.findElement(org.openqa.selenium.By.xpath("//a[contains(@class,'fc-event')]"))
 	eventLink3.click()

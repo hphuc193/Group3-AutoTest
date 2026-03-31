@@ -20,7 +20,7 @@ WebUI.waitForElementPresent(findTestObject('Page_Login/input_Email'), GlobalVari
 
 // Click "Forgot password?" link
 WebUI.click(findTestObject('Page_Login/link_ForgotPassword'))
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Wait for reset password page
 WebUI.waitForElementPresent(findTestObject('Page_ResetPassword/input_Email'), GlobalVariable.timeout)
@@ -42,7 +42,7 @@ if (needCaptcha == 'yes') {
 
 // Click Send button
 WebUI.click(findTestObject('Page_ResetPassword/btn_Send'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // Verify expected result
 def driver = DriverFactory.getWebDriver()

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>c9f97fd3-599d-4a6c-b299-ed96dcf225da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE5_Leads/TC_Lead_Add</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -66,7 +66,7 @@
    <testCaseLink>
       <guid>f405fcf7-bf79-4d3d-a8e8-2ca9902ecfb6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE5_Leads/TC_Lead_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -106,7 +106,7 @@
    <testCaseLink>
       <guid>b0b1b5b0-a49e-45a7-96bc-72c45e63971c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE5_Leads/TC_Lead_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -140,7 +140,7 @@
    <testCaseLink>
       <guid>e01eec1e-77d5-4d6c-96fa-33c35f43b9ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE5_Leads/TC_Lead_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

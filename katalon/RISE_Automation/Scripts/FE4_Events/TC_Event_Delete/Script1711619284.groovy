@@ -20,7 +20,7 @@ AuthHelper.loadAuth('admin')
 // Navigate to Events via sidebar
 WebUI.waitForElementPresent(findTestObject('Page_Dashboard/verify_Dashboard'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Page_Dashboard/link_Events'))
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Events/calendar_Grid'), GlobalVariable.timeout)
 
 // === Step 1: Add an event first (so we have something to delete) ===
@@ -40,11 +40,11 @@ WebUI.delay(1)
 
 // Save event
 WebUI.click(findTestObject('Page_Events/btn_Save'))
-WebUI.delay(3)
+WebUI.delay(1)
 
 // === Step 2: Reload calendar and click the newly created event ===
 WebUI.navigateToUrl(GlobalVariable.baseUrl + '/index.php/events')
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.waitForElementPresent(findTestObject('Page_Events/calendar_Grid'), GlobalVariable.timeout)
 
 // Click the event by title
@@ -60,7 +60,7 @@ WebUI.delay(1)
 // === Step 4: Confirm or Cancel (popover with Yes/No buttons) ===
 if (action == 'confirm') {
 	WebUI.click(findTestObject('Page_Events/btn_PopoverYes'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Verify success alert with "deleted"
 	WebUI.verifyElementPresent(findTestObject('Page_Events/alert_Success'), GlobalVariable.timeout, FailureHandling.OPTIONAL)
@@ -72,7 +72,7 @@ if (action == 'confirm') {
 
 	// Close the event details modal
 	WebUI.click(findTestObject('Page_Events/btn_CloseModal'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 
 	// Verify event still exists on calendar
 	String pageSource = driver.getPageSource()
