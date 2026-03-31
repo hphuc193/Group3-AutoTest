@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FE5 - Lead View Test Case (Data-driven)
+Covers: TC_LEAD_VIEW_001 to TC_LEAD_VIEW_002
+View lead detail page, convert lead to client.</description>
+   <name>TC_Lead_View</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-lead-view-fe5-001</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b422430-0189-4d3f-a49b-cc60796336f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2b146f2-c071-4e15-bfdf-0e350d1ce717</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5148c800-361e-465b-9904-63ebedb952cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b422430-0189-4d3f-a49b-cc60796336f4</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2b146f2-c071-4e15-bfdf-0e350d1ce717</id>
+      <masked>false</masked>
+      <name>action</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5148c800-361e-465b-9904-63ebedb952cb</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

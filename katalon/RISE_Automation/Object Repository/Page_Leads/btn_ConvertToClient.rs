@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ConvertToClient</name>
+   <tag></tag>
+   <elementGuidId>54399a3c-fbd8-4b00-a501-409840d5afe8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/div/div/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.float-end.mr15</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fdbd30cc-98f6-4fa9-a4ac-1e13bca8d0df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>21912d98-cf26-442f-9236-5ce737fb43c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary float-end mr15</value>
+      <webElementGuid>4cb97cb0-1095-4605-b048-12fb8c804ff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Convert to client</value>
+      <webElementGuid>7366f041-eb96-4574-908d-7fc045c7076c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-act</name>
+      <type>Main</type>
+      <value>ajax-modal</value>
+      <webElementGuid>c156f840-b546-488c-b6cf-4fe7d68e14d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title</name>
+      <type>Main</type>
+      <value>Convert to client</value>
+      <webElementGuid>980cb691-a37f-4507-bfbd-ce711ac4e710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action-url</name>
+      <type>Main</type>
+      <value>https://rise.fairsketch.com/index.php/leads/make_client_modal_form/24</value>
+      <webElementGuid>45a5d5bd-534d-4483-8687-cc99127751e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Convert to client</value>
+      <webElementGuid>2bf75f8f-bbfb-4523-8bf8-d39a8d8d512d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/div[@class=&quot;container-fluid leads-details-view&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;page-title clearfix no-border no-border-top-radius no-bg leads-page-title&quot;]/div[@class=&quot;title-button-group mr0 skip-dropdown-migration&quot;]/a[@class=&quot;btn btn-primary float-end mr15&quot;]</value>
+      <webElementGuid>3f14feb6-97fe-4b85-9b8f-4054f9c265a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/div/div/div/div/div/a</value>
+      <webElementGuid>cdc75e8e-e750-403d-b39a-aa8bc0366507</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Convert to client')]</value>
+      <webElementGuid>b6f1fbf8-7f70-4409-ae7b-003977cd4a74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads'])[2]/following::a[1]</value>
+      <webElementGuid>3e803287-8d76-43f1-8ada-a96505e97db8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/preceding::a[1]</value>
+      <webElementGuid>cc6af57c-2171-44e4-8262-724e8bb71b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimates'])[2]/preceding::a[2]</value>
+      <webElementGuid>ce3834b7-9604-42b5-8ec7-c3cd4fd16c8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Convert to client']/parent::*</value>
+      <webElementGuid>3edba237-aaab-4a4c-867b-09e0b9803226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[32]</value>
+      <webElementGuid>4bc67d15-c063-4b6d-ab50-a07e5500c52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/a</value>
+      <webElementGuid>5ce3428c-7bff-46ee-bc95-61cc340a6de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @title = 'Convert to client' and (text() = ' Convert to client' or . = ' Convert to client')]</value>
+      <webElementGuid>90a46c62-dbca-4eb6-99ad-672038a0b47c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

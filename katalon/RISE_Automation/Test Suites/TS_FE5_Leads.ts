@@ -140,7 +140,7 @@
    <testCaseLink>
       <guid>e01eec1e-77d5-4d6c-96fa-33c35f43b9ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE5_Leads/TC_Lead_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -169,6 +169,40 @@
          <type>DATA_COLUMN</type>
          <value>expectedResult</value>
          <variableId>3d07ea99-e506-4346-b999-04b3d8ce295a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a98a06ac-48c0-4d5c-9df2-6bedef705187</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE5_Leads/TC_Lead_View</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>258c0c1b-4c85-40c5-8688-e45a835fe08a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FE5_Lead_View_Test_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>258c0c1b-4c85-40c5-8688-e45a835fe08a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>3b422430-0189-4d3f-a49b-cc60796336f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258c0c1b-4c85-40c5-8688-e45a835fe08a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>action</value>
+         <variableId>c2b146f2-c071-4e15-bfdf-0e350d1ce717</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>258c0c1b-4c85-40c5-8688-e45a835fe08a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>5148c800-361e-465b-9904-63ebedb952cb</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

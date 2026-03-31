@@ -1,0 +1,3 @@
+scenario,action,expectedResult
+TC_LEAD_VIEW_001 - View lead detail page,view,detail_page
+TC_LEAD_VIEW_002 - Convert lead to client,convert,client_page

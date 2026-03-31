@@ -8,24 +8,6 @@ Search lead by name, non-existing keyword, by source.</description>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>tc-lead-search-fe5-001</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>cc9dc639-a6ca-4f20-90f1-995fcaaacdd1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>31d13c42-6824-48b6-99e5-0589f177620f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3d07ea99-e506-4346-b999-04b3d8ce295a</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
